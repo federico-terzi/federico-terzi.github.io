@@ -37,13 +37,17 @@
         <script src="{{ SITEURL }}/theme/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
         <script src="{{ SITEURL }}/theme/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" crossorigin="anonymous">
-       
+
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" crossorigin="anonymous">
+
+
 </head>
 
 <body id="index" class="home">
+  <div class="vertical-center">
+    <div class="container">
         <div class="text-center img-header">
-          <img src="theme/images/face2.png" width="250"/>
+          <img src="theme/images/face2.png" width="220"/>
           <h1>
             {{ SITENAME }}
           </h1>
@@ -65,20 +69,17 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-center">
-                <li class="active"><a href="#">Chi Sono <span class="sr-only">(current)</span></a></li>                
+                <li><a href="#">About <span class="sr-only">(current)</span></a></li>                
+                <li><a href="#">Portfolio </a></li>          
+                <li><a href="#">CV </a></li>          
+                <li><a href="#">Contact </a></li>                
               </ul>
             </div>
           </div>
         </nav>
-        <div class="container">
-          {% block content %}
-          {% endblock %}
-        </div>
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+        {% block content %}
+        {% endblock %}
+      </div>
+  </div>
 </body>
 </html>
