@@ -1,3 +1,7 @@
+body {
+  background: white;
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -15,9 +19,23 @@
   margin-top: 60px;
 }
 
-body {
-  background: white;
+ul.nav li a, ul.nav li a:visited {
+    color: black !important;
 }
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: black !important;
+}
+
+ul.nav li.active a {
+    color: black !important;
+}
+
+p {
+    color: black !important;
+}
+
+
 
 .navbar-default{
   background: white;
