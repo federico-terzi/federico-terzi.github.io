@@ -63,9 +63,28 @@ ul.nav li.active a {
 
 p {
     color: black !important;
+
 }
 
+.navbar-default {
+  margin-bottom: 0px;
+}
 
+.section {
+  margin-top: 24px;
+}
+
+.section-title {
+  font-size: 25px;
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.little-paragraph {
+  margin: auto;
+  max-width: 400px;
+}
 
 .navbar-default{
   background: white;
