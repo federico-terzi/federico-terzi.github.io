@@ -40,10 +40,10 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-center">
-                <li><a href="#" class="menu-btn" id="about">About <span class="sr-only">(current)</span></a></li>                
-                <li><a href="#" class="menu-btn" id="portfolio">Portfolio </a></li>          
-                <li><a href="#">CV </a></li>          
-                <li><a href="#">Contact </a></li>                
+                <li id="li-about"><a href="#" class="menu-btn" id="about">About <span class="sr-only">(current)</span></a></li>            
+                <li id="li-portfolio"><a href="#" class="menu-btn" id="portfolio">Portfolio </a></li>          
+                <li id="li-cv"><a href="#">CV </a></li>          
+                <li id="li-contact"><a href="#">Contact </a></li>                
               </ul>
             </div>
           </div>
@@ -85,7 +85,8 @@
 
 			// Hide all other sections
 			sections.forEach(function(item, index) {
-				$('#'+item).hide();
+				$('#section-'+item).hide();
+				$('#li-'+item).removeClass('active');
 			});
 
 			$('#section-'+section).removeClass('hidden');
@@ -95,6 +96,8 @@
 								{ opacity: 1 },
 								{ queue: false, duration: 'fast' }
 								);
+
+			$('#li-'+section).addClass('active');
 			//$('#section-'+section).slideDown('slow');
 		}
 
@@ -109,7 +112,7 @@
 		$( document ).ready(function() {
 		   	// Get all the sections in the page and add them to the array
 		    $('.section').each(function(i, obj) {
-		    	sections.push($(this).attr('id'));
+		    	sections.push($(this).attr('id').split("-")[1]);
 		    });
 
 		    if ($(window).width() < 800) {
