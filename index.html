@@ -63,19 +63,32 @@
 		    <p class="section-title">Portfolio</p>
 			<div class="row">
 				<div class="col-md-4">
-					<h4>Web Apps</h4>
+					<h4>Memlight</h4>
+					<div class="text-justify">
+						<p><i>Memlight</i> is a Web App developed using PHP / Symfony, jQuery and Bootstrap.</p>
+						<p>It's used to study effectively by repeating concepts. It features:</p>
+						<ul>
+							<li><b>A powerful <i>Quiz</i> system</b>, with recovery and statistics.</li>
+							<li><b>Multilanguage support</b>, with English and Italian included.</li>
+							<li><b>Admin Dashboard</b>, to create and edit Courses and Questions.</li>
+						</ul>
+						
+					</div>
+
+					<img src="/images/memlight1.jpg" class="img-thumbnail" width="250"/>
+					<a href="http://memlight.altervista.org" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
+
+					<a href="https://github.com/federico-terzi/memLight" target="_blank" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Github</a>
+				</div>
+				<div class="col-md-4">
+					<h4>Machine Learning</h4>
 					<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
 					<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
 				</div>
 				<div class="col-md-4">
-					<h4>Machine Learning</h4>
-<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-			<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
-				</div>
-				<div class="col-md-4">
 					<h4>Games</h4>
-<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-			<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
+					<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
+					<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
 				</div>
 			</div>
 
@@ -99,9 +112,28 @@
       </div>
   </div>
 	<script>
+		var marginTopOnMobile = 20;
+
 		var sections = [];
 
+		var getUrlParameter = function getUrlParameter(sParam) {
+			var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+			    sURLVariables = sPageURL.split('&'),
+			    sParameterName,
+			    i;
+
+			for (i = 0; i < sURLVariables.length; i++) {
+			    sParameterName = sURLVariables[i].split('=');
+
+			    if (sParameterName[0] === sParam) {
+			        return sParameterName[1] === undefined ? true : sParameterName[1];
+			    }
+			}
+		};
+
 		function showSection(section) {
+			history.pushState({urlPath:'/?p='+section},"",'/?p='+section)
+
 			$('#img-header').animate(
 								{ width:100, height:100 },
 								{ queue: false, duration: 'fast' }
@@ -135,8 +167,18 @@
 			//$('#section-'+section).slideDown('slow');
 		}
 
+		function updateLayout() {
+			if ($(window).width() < 768) { // Mobile
+				$('#main-navbar').addClass('navbar-fixed-top');
+				$('body').css('margin-top', marginTopOnMobile);
+			}else{ // Desktop
+				$('#main-navbar').removeClass('navbar-fixed-top');
+				$('body').css('margin-top', 0);
+			}
+		}
+
 		$('.menu-btn').click(function() {
-			if ($(window).width() < 800) {
+			if ($(window).width() < 768) {
 				$('.navbar-toggle').click();
 			}
 			//
@@ -149,17 +191,16 @@
 		    	sections.push($(this).attr('id').split("-")[1]);
 		    });
 
-		    if ($(window).width() < 800) {
-				$('#main-navbar').addClass('navbar-fixed-top');
-			}
+		    updateLayout();
+
+		    // If pages are passed as arguments, load the section
+		    if (typeof getUrlParameter('p') !== 'undefined') {
+		    	showSection(getUrlParameter('p'));
+		    }
 		});
 
 		$( window ).resize(function() {
-		  	if ($(window).width() < 800) {
-				$('#main-navbar').addClass('navbar-fixed-top');
-			}else{
-				$('#main-navbar').removeClass('navbar-fixed-top');
-			}
+		  	updateLayout();
 		});
 
 	</script>

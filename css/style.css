@@ -1,6 +1,7 @@
 body {
   background: white;
   height: 100%;
+  margin-bottom: 10px;
 }
 
 .vertical-center {
@@ -86,7 +87,15 @@ p {
   max-width: 400px;
 }
 
+.img-thumbnail {
+  margin: 15px;
+}
+
 .navbar-default{
+  background: transparent;
+  border-color: transparent;
+}
+
+.navbar-collapse {
   background: white;
-  border-color: white;
 }
