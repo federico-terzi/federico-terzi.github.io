@@ -1,208 +1,275 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Federico Terzi - Engineering Student and Developer - Personal Website</title>
-        <meta charset="utf-8" />
+    <title>Federico Terzi - Engineering Student and Developer - Personal Website</title>
+    <meta charset="utf-8"/>
 
-        <script src="/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-        <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="/css/style.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css" crossorigin="anonymous">
 </head>
 
 <body id="index" class="home">
-  <div class="vertical-center">
+<div class="vertical-center">
     <div class="container">
         <div class="text-center">
-          <img src="/images/smallface.png" width="220"  id="img-header"/>
-          <h1 id="header-name">
-            Federico Terzi
-          </h1>
-          <h4 id="header-subtitle">
-          <small>Engineering Student and Developer</small>
-          </h4>
+            <img src="/images/smallface.png" width="220" id="img-header"/>
+            <h1 id="header-name">
+                Federico Terzi
+            </h1>
+            <h4 id="header-subtitle">
+                <small>Engineering Student and Developer</small>
+            </h4>
         </div>
         <nav class="navbar navbar-default" id="main-navbar">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-center">
-                <li id="li-about"><a href="#" class="menu-btn" id="about">About <span class="sr-only">(current)</span></a></li>            
-                <li id="li-portfolio"><a href="#" class="menu-btn" id="portfolio">Portfolio </a></li>          
-                <li id="li-cv"><a href="#" class="menu-btn" id="cv">CV </a></li>          
-                <li id="li-contact"><a href="#" class="menu-btn" id="contact">Contact </a></li>                
-              </ul>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li id="li-about"><a href="#" class="menu-btn" id="about">About <span
+                                class="sr-only">(current)</span></a></li>
+                        <li id="li-portfolio"><a href="#" class="menu-btn" id="portfolio">Portfolio </a></li>
+                        <!--<li id="li-cv"><a href="#" class="menu-btn" id="cv">CV </a></li>-->
+                        <li id="li-contact"><a href="#" class="menu-btn" id="contact">Contact </a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
         <div class="text-center section" id="section-index">
-		    <p>I love learning new things, especially if I can turn them on!</p>
-		</div>
-		<div class="text-center hidden section" id="section-about">
-			<p class="section-title">About</p>
-			<div class="little-paragraph text-justify">
-			<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-			<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
-			<p>You can check out some of them on my Portfolio, you will find Web Apps, Games, Machine Learning and even a bit of Arduino.</p>
-			</div>
-		</div>
-		<div class="text-center hidden section" id="section-portfolio">
-		    <p class="section-title">Portfolio</p>
-			<div class="row">
-				<div class="col-md-4">
-					<h4>Memlight</h4>
-					<div class="text-justify">
-						<p><i>Memlight</i> is a Web App developed using PHP / Symfony, jQuery and Bootstrap.</p>
-						<p>It's used to study effectively by repeating concepts. It features:</p>
-						<ul>
-							<li><b>A powerful <i>Quiz</i> system</b>, with recovery and statistics.</li>
-							<li><b>Multilanguage support</b>, with English and Italian included.</li>
-							<li><b>Admin Dashboard</b>, to create and edit Courses and Questions.</li>
-						</ul>
-						
-					</div>
+            <p>I love learning new things, especially if I can turn them on!</p>
+        </div>
+        <div class="text-center hidden section" id="section-about">
+            <p class="section-title">About</p>
+            <div class="little-paragraph text-justify">
+                <p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
+                <p>I study Software Engineering at University and I always try to expand my skillset by creating new
+                    projects.</p>
+                <p>You can check out some of them on my Portfolio, you will find Web Apps, Games, Machine Learning and
+                    even a bit of Arduino.</p>
+            </div>
+        </div>
+        <div class="text-center hidden section" id="section-portfolio">
+            <p class="section-title">Portfolio</p>
+            <p>This page includes some of my public projects:</p>
+            <div class="row portfolio-row center-block">
+                <div class="col-md-6 portfolio-item">
+                    <h4>Gesture Keyboard</h4>
+                    <div class="text-justify">
+                        <p>The <i>Gesture Keyboard</i> is a device capable of converting gestures into characters, made
+                            using an Arduino.</p>
+                        <p>That makes possible writing as you would normally do with a keyboard, by moving the device in
+                            the air.</p>
+                        <p>Technologies used:</p>
+                        <ul>
+                            <li><b>Arduino</b>, to build the device that records the movements.</li>
+                            <li><b>Python</b>, to make the library capable of converting movements into characters</li>
+                            <li><b>Scikit-learn</b>, a python machine learning library.</li>
+                        </ul>
+                        <p>More info on the Github page or the video below.</p>
+                    </div>
 
-					<img src="/images/memlight1.jpg" class="img-thumbnail" width="250"/>
-					<a href="http://memlight.altervista.org" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
+                    <img src="/images/gesturekeyboard.jpg" class="img-thumbnail" width="250"/>
 
-					<a href="https://github.com/federico-terzi/memLight" target="_blank" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Github</a>
-				</div>
-				<div class="col-md-4">
-					<h4>Machine Learning</h4>
-					<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-					<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
-				</div>
-				<div class="col-md-4">
-					<h4>Games</h4>
-					<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-					<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
-				</div>
-			</div>
+                    <a href="https://www.youtube.com/watch?v=OjTNS2ZKqRc" target="_blank"
+                       class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-share-alt"
+                                                            aria-hidden="true"></span> Youtube</a>
+                    <a href="https://github.com/federico-terzi/gesture-keyboard" target="_blank"
+                       class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"
+                                                            aria-hidden="true"></span> Github</a>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <h4>Memlight</h4>
+                    <div class="text-justify">
+                        <p><i>Memlight</i> is a Web App developed using PHP / Symfony, MySQL, jQuery and Bootstrap.</p>
+                        <p>It's used to study effectively by repeating concepts. It features:</p>
+                        <ul>
+                            <li><b>A powerful <i>Quiz</i> system</b>, with recovery and statistics.</li>
+                            <li><b>Multilanguage support</b>, with English and Italian included.</li>
+                            <li><b>Admin Dashboard</b>, to create and edit Courses and Questions.</li>
+                        </ul>
 
-		</div>
-		<div class="text-center hidden section" id="section-cv">
-		    <p class="section-title">CV</p>
-			<div class="little-paragraph">
-			<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-			<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
-			<p>You can check out some of them on my Portfolio, you will find Web Apps, Games, Machine Learning and even a bit of Arduino.</p>
-			</div>
-		</div>
-		<div class="text-center hidden section" id="section-contact">
-		    <p class="section-title">Contact</p>
-			<div class="little-paragraph">
-			<p>Hi! I'm Federico, an italian developer who loves to learn new things.</p>
-			<p>I study Software Engineering at University and I always try to expand my skillset by creating new projects.</p>
-			<p>You can check out some of them on my Portfolio, you will find Web Apps, Games, Machine Learning and even a bit of Arduino.</p>
-			</div>
-		</div>
-      </div>
-  </div>
-	<script>
-		var marginTopOnMobile = 10;
+                    </div>
 
-		var sections = [];
+                    <img src="/images/memlight1.jpg" class="img-thumbnail" width="250"/>
+                    <a href="http://memlight.altervista.org" target="_blank" class="btn btn-primary btn-sm"><span
+                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
 
-		var getUrlParameter = function getUrlParameter(sParam) {
-			var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-			    sURLVariables = sPageURL.split('&'),
-			    sParameterName,
-			    i;
+                    <a href="https://github.com/federico-terzi/memLight" target="_blank" class="btn btn-default btn-sm"><span
+                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Github</a>
+                </div>
 
-			for (i = 0; i < sURLVariables.length; i++) {
-			    sParameterName = sURLVariables[i].split('=');
+            </div>
 
-			    if (sParameterName[0] === sParam) {
-			        return sParameterName[1] === undefined ? true : sParameterName[1];
-			    }
-			}
-		};
+            <div class="row portfolio-row center-block">
+                <div class="col-md-6 portfolio-item">
+                    <h4>pyGARL</h4>
+                    <div class="text-justify">
+                        <p><i>pyGARL</i> is a Python library that can be used to build complex gesture recognition
+                            systems.</p>
+                        <p>It's a work in progress...</p>
+                    </div>
 
-		function showSection(section) {
-			history.pushState({urlPath:'/?p='+section},"",'/?p='+section)
+                    <img src="/images/C.png" class="img-thumbnail" width="250"/>
+                    <a href="https://github.com/federico-terzi/pygarl" target="_blank"
+                       class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"
+                                                            aria-hidden="true"></span> Github</a>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <h4>Tapzy</h4>
+                    <div class="text-justify">
+                        <p><i>Tapzy</i> an online, turn based puzzle game, written using the Corona SDK framework ( Lua
+                            ) for the client and PHP/MySQL for the backend.</p>
+                        <p>It features:</p>
+                        <ul>
+                            <li><b>A booking system</b>, to match players around the world.</li>
+                            <li><b>A referral system</b>, to recommend the game to other players.</li>
+                            <li><b>Gamer Bots</b> to play with if no player is available.</li>
+                        </ul>
 
-			$('#img-header').animate(
-								{ width:100, height:100 },
-								{ queue: false, duration: 'fast' }
-								);
+                    </div>
 
-			$('#header-name').animate(
-								{ fontSize: 20, marginTop: 5 },
-								{ queue: false, duration: 'fast' }
-								);
+                    <img src="/images/tapzy.jpg" class="img-thumbnail" width="250"/>
 
-			$('#header-subtitle').animate(
-								{ fontSize: 15},
-								{ queue: false, duration: 'fast' }
-								);
+                    <a href="https://play.google.com/store/apps/details?id=com.freddyt_studio.tapzy" target="_blank" class="btn btn-primary btn-sm"><span
+                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
+                </div>
+            </div>
+            <div class="row portfolio-row center-block">
+                <div class="col-md-6 portfolio-item">
+                    <h4>Gravity Run</h4>
+                    <div class="text-justify">
+                        <p><i>Gravity Run</i> is a simple arcade game for Android, developed using Corona SDK ( Lua ).</p>
+                    </div>
 
-			// Hide all other sections
-			sections.forEach(function(item, index) {
-				$('#section-'+item).hide();
-				$('#li-'+item).removeClass('active');
-			});
+                    <img src="/images/gravityrun.png" class="img-thumbnail" width="250"/>
 
-			$('#section-'+section).removeClass('hidden');
-			$('#section-'+section).css('opacity', 0)
-								.slideDown('slow')
-								.animate(
-								{ opacity: 1 },
-								{ queue: false, duration: 'fast' }
-								);
+                    <a href="https://play.google.com/store/apps/details?id=com.freddyt_studio.gravityrun" target="_blank" class="btn btn-primary btn-sm"><span
+                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
+                </div>
+            </div>
+        </div>
+        <!--<div class="text-center hidden section" id="section-cv">
+            <p class="section-title">CV</p>
+            <div class="little-paragraph">
+                <p>It's not yet ready :)</p>
+            </div>
+        </div>-->
+        <div class="text-center hidden section" id="section-contact">
+            <p class="section-title">Contact</p>
+            <div class="little-paragraph">
+                <p>You can contact me at this email address:</p>
+                <a href="mailto:federicoterzi96@gmail.com" >federicoterzi96@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var marginTopOnMobile = 10;
 
-			$('#li-'+section).addClass('active');
-			//$('#section-'+section).slideDown('slow');
-		}
+    var sections = [];
 
-		function updateLayout() {
-			if ($(window).width() < 768) { // Mobile
-				$('#main-navbar').addClass('navbar-fixed-top');
-				$('body').css('margin-top', marginTopOnMobile);
-			}else{ // Desktop
-				$('#main-navbar').removeClass('navbar-fixed-top');
-				$('body').css('margin-top', 0);
-			}
-		}
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
 
-		$('.menu-btn').click(function() {
-			if ($(window).width() < 768) {
-				$('.navbar-toggle').click();
-			}
-			//
-			showSection($(this).attr('id'));
-		})
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
 
-		$( document ).ready(function() {
-		   	// Get all the sections in the page and add them to the array
-		    $('.section').each(function(i, obj) {
-		    	sections.push($(this).attr('id').split("-")[1]);
-		    });
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+            }
+        }
+    };
 
-		    updateLayout();
+    function showSection(section) {
+        history.pushState({urlPath: '/?p=' + section}, "", '/?p=' + section)
 
-		    // If pages are passed as arguments, load the section
-		    if (typeof getUrlParameter('p') !== 'undefined') {
-		    	showSection(getUrlParameter('p'));
-		    }
-		});
+        $('#img-header').animate(
+            {width: 100, height: 100},
+            {queue: false, duration: 'fast'}
+        );
 
-		$( window ).resize(function() {
-		  	updateLayout();
-		});
+        $('#header-name').animate(
+            {fontSize: 20, marginTop: 5},
+            {queue: false, duration: 'fast'}
+        );
 
-	</script>
+        $('#header-subtitle').animate(
+            {fontSize: 15},
+            {queue: false, duration: 'fast'}
+        );
+
+        // Hide all other sections
+        sections.forEach(function (item, index) {
+            $('#section-' + item).hide();
+            $('#li-' + item).removeClass('active');
+        });
+
+        $('#section-' + section).removeClass('hidden');
+        $('#section-' + section).css('opacity', 0)
+            .slideDown('slow')
+            .animate(
+                {opacity: 1},
+                {queue: false, duration: 'fast'}
+            );
+
+        $('#li-' + section).addClass('active');
+        //$('#section-'+section).slideDown('slow');
+    }
+
+    function updateLayout() {
+        if ($(window).width() < 768) { // Mobile
+            $('#main-navbar').addClass('navbar-fixed-top');
+            $('body').css('margin-top', marginTopOnMobile);
+        } else { // Desktop
+            $('#main-navbar').removeClass('navbar-fixed-top');
+            $('body').css('margin-top', 0);
+        }
+    }
+
+    $('.menu-btn').click(function () {
+        if ($(window).width() < 768) {
+            $('.navbar-toggle').click();
+        }
+        //
+        showSection($(this).attr('id'));
+    })
+
+    $(document).ready(function () {
+        // Get all the sections in the page and add them to the array
+        $('.section').each(function (i, obj) {
+            sections.push($(this).attr('id').split("-")[1]);
+        });
+
+        updateLayout();
+
+        // If pages are passed as arguments, load the section
+        if (typeof getUrlParameter('p') !== 'undefined') {
+            showSection(getUrlParameter('p'));
+        }
+    });
+
+    $(window).resize(function () {
+        updateLayout();
+    });
+
+</script>
 </body>
 </html>

@@ -99,3 +99,11 @@ p {
 .navbar-collapse {
   background: white;
 }
+
+.portfolio-row {
+    max-width: 800px;
+}
+
+.portfolio-item {
+    padding: 20px;
+}
