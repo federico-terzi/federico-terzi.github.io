@@ -21,9 +21,6 @@ Hope you like it! :)
 
     <script src="/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="/js/masonry.pkgd.min.js" crossorigin="anonymous"></script>
-    <script src="/js/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
-    <script src="/js/bowser.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/css/style.css" crossorigin="anonymous">
@@ -87,7 +84,7 @@ Hope you like it! :)
             <p class="section-title">Portfolio</p>
             <p>This page includes some of my public projects:</p>
             <div class="row portfolio-row center-block">
-                <div class="col-md-4 portfolio-item">
+                <div class="portfolio-item">
                     <h4>Gesture Keyboard</h4>
                     <div class="text-justify">
                         <p>The <i>Gesture Keyboard</i> is a device capable of converting gestures into characters, made
@@ -112,7 +109,7 @@ Hope you like it! :)
                        class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"
                                                             aria-hidden="true"></span> Github</a>
                 </div>
-                <div class="col-md-4 portfolio-item">
+                <div class="portfolio-item">
                     <h4>Sublime Music Manager</h4>
                     <div class="text-justify">
                         <p><i>Sublime Music Manager</i> is an <b>Android app</b> that makes it easy to manage your music collection. It was made using <b>Java</b>, <b>Javascript (ES6)</b> and <b>React + Redux</b>.</p>
@@ -144,7 +141,7 @@ Hope you like it! :)
                        class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-share-alt"
                                                             aria-hidden="true"></span> Check it out on Google Play</a>
                 </div>
-                <div class="col-md-4 portfolio-item">
+                <div class="portfolio-item">
                     <h4>Memlight</h4>
                     <div class="text-justify">
                         <p><i>Memlight</i> is a Web App developed using PHP / Symfony, MySQL, jQuery and Bootstrap.</p>
@@ -165,7 +162,7 @@ Hope you like it! :)
                             class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Github</a>
                 </div>
 
-                <div class="col-md-4 portfolio-item">
+                <div class="portfolio-item">
                     <h4>pyGARL</h4>
                     <div class="text-justify">
                         <p><i>pyGARL</i> is a Python library that can be used to build complex gesture recognition
@@ -178,7 +175,7 @@ Hope you like it! :)
                        class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"
                                                             aria-hidden="true"></span> Github</a>
                 </div>
-                <div class="col-md-4 portfolio-item">
+                <div class="portfolio-item">
                     <h4>Tapzy</h4>
                     <div class="text-justify">
                         <p><i>Tapzy</i> is an online, turn based puzzle game, written using the Corona SDK framework ( Lua
@@ -198,7 +195,7 @@ Hope you like it! :)
                             class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it out on Google Play</a>
                 </div>
 
-                <div class="col-md-4 portfolio-item">
+                <div class="portfolio-item">
                     <h4>Gravity Run</h4>
                     <div class="text-justify">
                         <p><i>Gravity Run</i> is a simple arcade game for Android, developed using Corona SDK ( Lua ).</p>
@@ -313,15 +310,6 @@ Hope you like it! :)
         // If pages are passed as arguments, load the section
         if (typeof getUrlParameter('p') !== 'undefined') {
             showSection(getUrlParameter('p'));
-        }
-
-        // Don't activate with Edge, because as always it doesn't work...
-        if (!bowser.msedge) {
-            $('#section-portfolio').imagesLoaded(function() {
-            $('.row').masonry({
-              itemSelector : '.col-md-4'
-            });
-        });
         }
         
     });
