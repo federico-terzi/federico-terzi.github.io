@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+<!--
+
+Hi there, thanks for checking out my website!
+
+Little disclaimer: 
+I coded it from scratch in a short period and 
+it may have a few problems...
+
+Hope you like it! :)
+
+-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +21,9 @@
 
     <script src="/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="/js/masonry.pkgd.min.js" crossorigin="anonymous"></script>
+    <script src="/js/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
+    <script src="/js/bowser.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/css/style.css" crossorigin="anonymous">
@@ -50,6 +64,9 @@
                 </div>
             </div>
         </nav>
+
+        <!-- About Page -->
+
         <div class="text-center section" id="section-index">
             <p>I love learning new things, especially if I can turn them on!</p>
         </div>
@@ -63,11 +80,14 @@
                     even a bit of Arduino.</p>
             </div>
         </div>
+
+        <!-- Portfolio -->
+        
         <div class="text-center hidden section" id="section-portfolio">
             <p class="section-title">Portfolio</p>
             <p>This page includes some of my public projects:</p>
             <div class="row portfolio-row center-block">
-                <div class="col-md-6 portfolio-item">
+                <div class="col-md-4 portfolio-item">
                     <h4>Gesture Keyboard</h4>
                     <div class="text-justify">
                         <p>The <i>Gesture Keyboard</i> is a device capable of converting gestures into characters, made
@@ -92,7 +112,39 @@
                        class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"
                                                             aria-hidden="true"></span> Github</a>
                 </div>
-                <div class="col-md-6 portfolio-item">
+                <div class="col-md-4 portfolio-item">
+                    <h4>Sublime Music Manager</h4>
+                    <div class="text-justify">
+                        <p><i>Sublime Music Manager</i> is an <b>Android app</b> that makes it easy to manage your music collection. It was made using <b>Java</b>, <b>Javascript (ES6)</b> and <b>React + Redux</b>.</p>
+
+                        <img src="/images/sublime-icon.png" class="image-text" width="100"/>
+                        
+                        <p>It enables you to easily transfer your music files from your computer to your
+                        phone over WiFi. It also supports transfers between phones using WiFi Direct.</p>
+
+                        <p>It features:</p>
+                        <ul>
+                            <li><b>A powerful Web Server</b>, built-in the app itself, that makes possible managing your files from every device connected to the same local network.</li>
+                            <li><b>Sharing capabilities</b>. Transfer your files over WiFi, or even WiFi direct if a local network is not available.</li>
+                            <li><b>Automatic Tags</b> search for your songs, with album cover image as well.</li>
+                            <li><b>Multilanguage:</b> both Italian and English languages are available for the Android app and the web app.</li>
+                        </ul>
+
+                        <p>Technologies used:</p>
+                        <ul>
+                            <li><b>Java</b> to build the app itself.</li>
+                            <li><b>React + Redux</b> for the web app that makes possible managing your music over WiFi. It is automatically loaded in the browser when you connect to the app web server. </li>
+                        </ul>
+                        <p>Check out the app in the Google Playstore by using the button below.</p>
+                    </div>
+
+                    <img src="/images/sublime.jpg" class="img-thumbnail" width="250"/>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.freddyt_studio.sublimemusicmanager" target="_blank"
+                       class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-share-alt"
+                                                            aria-hidden="true"></span> Check it out on Google Play</a>
+                </div>
+                <div class="col-md-4 portfolio-item">
                     <h4>Memlight</h4>
                     <div class="text-justify">
                         <p><i>Memlight</i> is a Web App developed using PHP / Symfony, MySQL, jQuery and Bootstrap.</p>
@@ -113,10 +165,7 @@
                             class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Github</a>
                 </div>
 
-            </div>
-
-            <div class="row portfolio-row center-block">
-                <div class="col-md-6 portfolio-item">
+                <div class="col-md-4 portfolio-item">
                     <h4>pyGARL</h4>
                     <div class="text-justify">
                         <p><i>pyGARL</i> is a Python library that can be used to build complex gesture recognition
@@ -129,10 +178,10 @@
                        class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"
                                                             aria-hidden="true"></span> Github</a>
                 </div>
-                <div class="col-md-6 portfolio-item">
+                <div class="col-md-4 portfolio-item">
                     <h4>Tapzy</h4>
                     <div class="text-justify">
-                        <p><i>Tapzy</i> an online, turn based puzzle game, written using the Corona SDK framework ( Lua
+                        <p><i>Tapzy</i> is an online, turn based puzzle game, written using the Corona SDK framework ( Lua
                             ) for the client and PHP/MySQL for the backend.</p>
                         <p>It features:</p>
                         <ul>
@@ -146,11 +195,10 @@
                     <img src="/images/tapzy.jpg" class="img-thumbnail" width="250"/>
 
                     <a href="https://play.google.com/store/apps/details?id=com.freddyt_studio.tapzy" target="_blank" class="btn btn-primary btn-sm"><span
-                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
+                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it out on Google Play</a>
                 </div>
-            </div>
-            <div class="row portfolio-row center-block">
-                <div class="col-md-6 portfolio-item">
+
+                <div class="col-md-4 portfolio-item">
                     <h4>Gravity Run</h4>
                     <div class="text-justify">
                         <p><i>Gravity Run</i> is a simple arcade game for Android, developed using Corona SDK ( Lua ).</p>
@@ -159,7 +207,7 @@
                     <img src="/images/gravityrun.png" class="img-thumbnail" width="250"/>
 
                     <a href="https://play.google.com/store/apps/details?id=com.freddyt_studio.gravityrun" target="_blank" class="btn btn-primary btn-sm"><span
-                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it Out</a>
+                            class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Check it out on Google Play</a>
                 </div>
             </div>
         </div>
@@ -238,9 +286,11 @@
         if ($(window).width() < 768) { // Mobile
             $('#main-navbar').addClass('navbar-fixed-top');
             $('body').css('margin-top', marginTopOnMobile);
+            $(".portfolio-item").css("padding", 0);
         } else { // Desktop
             $('#main-navbar').removeClass('navbar-fixed-top');
             $('body').css('margin-top', 0);
+            $(".portfolio-item").css("padding", 30);
         }
     }
 
@@ -264,6 +314,16 @@
         if (typeof getUrlParameter('p') !== 'undefined') {
             showSection(getUrlParameter('p'));
         }
+
+        // Don't activate with Edge, because as always it doesn't work...
+        if (!bowser.msedge) {
+            $('#section-portfolio').imagesLoaded(function() {
+            $('.row').masonry({
+              itemSelector : '.col-md-4'
+            });
+        });
+        }
+        
     });
 
     $(window).resize(function () {

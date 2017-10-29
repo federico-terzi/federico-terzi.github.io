@@ -101,9 +101,23 @@ p {
 }
 
 .portfolio-row {
-    max-width: 800px;
 }
 
 .portfolio-item {
-    padding: 20px;
+    padding: 30px; /* WARNING: this can be changed in the javascript */
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.portfolio-item:hover {
+    background-color: #E1EAE8;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.image-text {
+  float: right;
+  margin-left: 20px;
+
 }
