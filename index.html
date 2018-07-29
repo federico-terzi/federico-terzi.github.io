@@ -57,7 +57,7 @@ Hope you like it! :)
                         <li id="li-portfolio"><a href="#" class="menu-btn" id="portfolio">Portfolio </a></li>
                         <li id="li-theses"><a href="#" class="menu-btn" id="theses">Thesis</a></li>
                         <!--<li id="li-cv"><a href="#" class="menu-btn" id="cv">CV </a></li>-->
-                        <li id="li-contact"><a href="#" class="menu-btn" id="contact">Contact </a></li>
+                        <li id="li-contact"><a href="#" class="menu-btn" id="contact">Contacts </a></li>
 
                     </ul>
                 </div>
@@ -230,14 +230,25 @@ Hope you like it! :)
             </div>
         </div>
         <div class="text-center hidden section" id="section-contact">
-            <p class="section-title">Contact</p>
+            <p class="section-title">Contacts</p>
             <div class="little-paragraph">
                 <p>You can contact me at this email address:</p>
                 <a href="mailto:federicoterzi96@gmail.com" >federicoterzi96@gmail.com</a>
             </div>
+            <h4>Socials</h4>
+            <a href="https://github.com/federico-terzi/"><img src="images/github-icon.png" class="footer-icon" /> Github</a><br>
+	<a href="https://www.linkedin.com/in/federico-terzi/"><img src="images/linkedin-icon.png" class="footer-icon" /> Linkedin</a><br>
+	<a href="https://www.youtube.com/channel/UCLXAviTgz5MuJrR_rbLGNWg"><img src="images/youtube-icon.png" class="footer-icon" /> Youtube</a>
         </div>
     </div>
 </div>
+<footer class="footer">
+	<a href="https://github.com/federico-terzi/" data-toggle="tooltip" data-placement="top" title="My Github Page"><img src="images/github-icon.png" class="footer-icon" /></a>  
+	<a href="https://www.linkedin.com/in/federico-terzi/" data-toggle="tooltip" data-placement="top" title="My Linkedin Profile"><img src="images/linkedin-icon.png" class="footer-icon" /></a>  
+	<a href="https://www.youtube.com/channel/UCLXAviTgz5MuJrR_rbLGNWg" data-toggle="tooltip" data-placement="top" title="My Youtube Channel"><img src="images/youtube-icon.png" class="footer-icon" /></a>  
+	<a href="mailto:federicoterzi96@gmail.com" data-toggle="tooltip" data-placement="top" title="My Email"><img src="images/email-icon.png" class="footer-icon" /></a>  
+	<p>Site designed by Federico Terzi. Icons by <a href="https://icons8.com/">icon8</a></p>
+</footer>
 <script>
     var marginTopOnMobile = 10;
 
@@ -332,6 +343,10 @@ Hope you like it! :)
     $(window).resize(function () {
         updateLayout();
     });
+
+    $(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+	});
 
 </script>
 </body>
