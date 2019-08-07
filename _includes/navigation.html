@@ -1,0 +1,23 @@
+<!-- Image and text -->
+<nav class="navbar navbar-expand-xl navbar-light heading">
+    <a class="navbar-brand" href="#">
+        <img src="assets/images/smallface.png" class="logo-img">
+        
+    </a>
+    <div class="mr-auto">
+        <h1>{{ site.title }}</h1><br>
+        <h4>{{ site.subtitle }}</h4>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            {% for item in site.data.navigation %}
+            <li class="nav-item {% if page.url == item.link %}active{% endif %}">
+                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
