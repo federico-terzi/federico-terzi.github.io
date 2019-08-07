@@ -2,19 +2,19 @@ $logoImgSize: 100px;
 $logoImgSizeSmall: 50px;
 
 .heading {
+    
     font-family: 'Darker Grotesque', sans-serif;
 
     .logo-img {
         width: $logoImgSize;
         height: $logoImgSize;
         float: left;
-        margin-right: 20px;
+        margin-right: 0px;
         display: block;
 
         @media screen and (max-width: $screen-tablet) {
             width: $logoImgSizeSmall;
             height: $logoImgSizeSmall;
-            margin-right: 0px;
         }
     }
 
@@ -46,7 +46,7 @@ $logoImgSizeSmall: 50px;
     li {
         float: left; 
         list-style: none;
-        margin: 0 15px 0 15px;
+        margin: 0 10px 0 10px;
     }
 
     ul {
