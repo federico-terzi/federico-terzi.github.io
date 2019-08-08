@@ -67,3 +67,9 @@ $logoImgSizeSmall: 50px;
         font-weight: 700;
     }
 }
+
+.navbar {
+    @media screen and (max-width: $screen-tablet) {
+        padding-left: 0;
+    }
+}

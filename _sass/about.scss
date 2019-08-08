@@ -2,9 +2,14 @@
     text-align: center;
     background-color: transparent;
     font-family: 'Darker Grotesque', sans-serif;
-    padding: 10px;
-    height: 500px;
+    padding: 10px 20px 0px 20px;
+    margin: 0;
+    height: 400px;
     position: relative;
+
+    @media screen and (min-width: $screen-tablet) {
+        margin-bottom: 60px;
+    }
 
     .about-img {
         width: 250px;
@@ -12,7 +17,7 @@
 
     .robot-arm {
         position: absolute;
-        top: 30%;
+        top: 40%;
         height: 50%;
         width: 15%;
         background-size: 500px;
@@ -98,6 +103,6 @@ h4 {
 .about-card {
     img {
         height: 130px;
-        margin: 0px 0 20px 0;
+        margin: 40px 0 20px 0;
     }
 }
