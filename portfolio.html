@@ -1,0 +1,12 @@
+---
+title: Portfolio
+layout: default
+---
+<ul>
+{% for project in site.portfolios %}
+    <li>
+    <h2>{{ project.name }}</h2>
+    <p>{{ project.content | markdownify }}</p>
+    </li>
+{% endfor %}
+</ul>

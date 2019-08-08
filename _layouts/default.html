@@ -14,12 +14,25 @@ Hope you like it! :)
     
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link href="/assets/fonts/open-iconic-master/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
     {% include navigation.html %}    
 
+    {% unless page.avoidContainer %}
+    <div class="container">
+    {% endunless %}
+
+    {% unless page.hideTitle %}
+    <h1 class="page-title">{{page.title}}</h1>
+    {% endunless %}
+
     {{ content }}
+
+    {% unless page.avoidContainer %}
+    </div>
+    {% endunless %}
 
     <script src="/assets/js/jquery-3.4.1.min.js"></script>
     <script src="/assets/js/popper.min.js"></script>

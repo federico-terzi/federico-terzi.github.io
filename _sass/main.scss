@@ -2,11 +2,21 @@
 @import 'sizes.scss';
 @import 'navigation.scss';
 @import 'about.scss';
+@import 'buttons.scss';
 
 body {
     padding: 0px;
 }
 
-.page-title {
+p {
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.page-title {
+    text-align: center;
+    margin: 35px 0 27px 0;
 }
