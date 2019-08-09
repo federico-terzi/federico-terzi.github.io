@@ -3,15 +3,24 @@
 @import 'navigation.scss';
 @import 'about.scss';
 @import 'buttons.scss';
+@import 'portfolio.scss';
 
 body {
     padding: 0px;
 }
 
-p {
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 1.5em;
-    line-height: 1.3em;
+.container {
+    p {
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.25em;
+        line-height: 1.3em;
+    }
+    
+    ul {
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.25em;
+        line-height: 1.3em;
+    }
 }
 
 .page-title {

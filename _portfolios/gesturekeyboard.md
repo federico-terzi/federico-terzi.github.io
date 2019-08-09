@@ -1,5 +1,7 @@
 ---
 name: Gesture Keyboard
+priority: 100
+image: /assets/images/gesturekeyboard.jpg
 youtube: https://www.youtube.com/watch?v=OjTNS2ZKqRc
 github: https://github.com/federico-terzi/gesture-keyboard
 ---

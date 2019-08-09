@@ -1,0 +1,9 @@
+.portfolio-card {
+    width: 32%;
+    margin-bottom: 10px;
+
+    @media screen and (max-width: $screen-tablet) {
+        width: 100%;
+    }
+    
+}

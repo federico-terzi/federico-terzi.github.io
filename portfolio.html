@@ -2,11 +2,40 @@
 title: Portfolio
 layout: default
 ---
-<ul>
-{% for project in site.portfolios %}
-    <li>
-    <h2>{{ project.name }}</h2>
-    <p>{{ project.content | markdownify }}</p>
-    </li>
-{% endfor %}
-</ul>
+<div class="grid">
+    {% assign projects = site.portfolios | sort: 'priority' | reverse %}
+    {% for project in projects %}
+    <div class="card portfolio-card">
+        <img src="{{project.image}}" class="card-img-top" alt="{{project.name}}">
+        <div class="card-body">
+            <h5 class="card-title">{{ project.name }}</h5>
+            <p class="card-text">{{ project.content | markdownify }}</p>
+
+            {% if project.website %}
+                <a href="{{project.website}}" target="_blank" class="btn btn-info"><span class="oi oi-external-link"></span> Website</a>
+            {% endif %}
+            {% if project.github %}
+                <a href="{{project.github}}" target="_blank" class="btn btn-success"><span class="oi oi-code"></span> GitHub</a>
+            {% endif %}
+            {% if project.youtube %}
+                <a href="{{project.youtube}}" target="_blank" class="btn btn-primary"><span class="oi oi-external-link"></span> Youtube</a>
+            {% endif %}
+            {% if project.gplay %}
+                <a href="{{project.gplay}}" target="_blank" class="btn btn-primary"><span class="oi oi-media-play"></span> Google Play Store</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script src="/assets/js/masonry.pkgd.min.js"></script>
+<script>
+var elem = document.querySelector('.grid');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.portfolio-card',
+  percentPosition: true,
+  horizontalOrder: true,
+  gutter: 10
+});
+</script>
