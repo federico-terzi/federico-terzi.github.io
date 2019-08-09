@@ -24,6 +24,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://federicoterzi.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  federico-terzi
 
+permalink: /blog/:title:output_ext
+
 collections:
   portfolios:
 
@@ -32,6 +34,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+social:
+  name: Federico Terzi
+  links:
+    - https://www.youtube.com/channel/UCLXAviTgz5MuJrR_rbLGNWg
+    - https://www.linkedin.com/in/federico-terzi/
+    - https://github.com/federico-terzi
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

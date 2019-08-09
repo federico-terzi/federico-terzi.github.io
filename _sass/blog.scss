@@ -1,0 +1,51 @@
+.post-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 1rem;
+}
+
+.post-list-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+
+    @media screen and (max-width: $screen-tablet) {
+        margin-bottom: 15px;
+        max-height: 200px;
+    }
+}
+
+.post-list-title {
+    margin: 0;
+    @media screen and (max-width: $screen-tablet) {
+        text-align: center;
+    }
+}
+
+.post-list-subtitle {
+    margin: 0px 0 10px 0;
+
+    @media screen and (max-width: $screen-tablet) {
+        text-align: center;
+        margin: 0px 0 0px 0;
+    }
+}
+
+.post-row {
+    margin-bottom: 10px;
+
+    @media screen and (max-width: $screen-tablet) {
+        margin-bottom: 30px;
+    }
+}
+
+.post-title {
+    text-align: center;
+    margin: 35px 0 0px 0;
+}
+
+.post-subtitle {
+    margin: 0px 0 30px 0;
+}

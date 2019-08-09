@@ -1,0 +1,12 @@
+---
+layout: default
+hideTitle: True
+---
+<div class="text-center">
+    <h2 class="post-title">{{page.title}}</h2>
+    <p class="text-center post-subtitle">{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    <img src="{{page.image}}" class="post-image" />
+</div>
+
+{{ content }}

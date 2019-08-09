@@ -9,8 +9,14 @@ Hope you like it! :)
 -->
   <head>
     <meta charset="utf-8">
-    <title>{{ site.title }} - {{ site.subtitle }}</title>
+    {% assign pagetitle = "" %}
+    {% if page.title and page.hideTitle == False %}
+    {% assign pagetitle = page.title | append: " - " %}
+    {% endif %}
+    <title>{{pagetitle}}{{ site.title }} - {{ site.subtitle }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% seo %}
     
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -24,7 +30,7 @@ Hope you like it! :)
     <div class="container">
     {% endunless %}
 
-    {% unless page.hideTitle %}
+    {% unless page.hideTitle or layout.hideTitle %}
     <h2 class="page-title">{{page.title}}</h2>
     {% endunless %}
 

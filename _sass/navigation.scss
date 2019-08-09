@@ -51,6 +51,7 @@ $logoImgSizeSmall: 50px;
 
     ul {
         margin-right: 20px;
+        text-align: center;
     }
 
     .nav-link {
@@ -69,6 +70,10 @@ $logoImgSizeSmall: 50px;
         a {
             color: #d63031 !important;
         }
+    }
+
+    .logo-link {
+        color: #343a40;
     }
 }
 
