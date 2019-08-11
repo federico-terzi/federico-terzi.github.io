@@ -1,0 +1,40 @@
+<div class="footer-container">
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/assets/images/roundface.png" class="footer-profile-image mb-3"/>
+                <p>Hi! I'm Federico, an Italian developer who loves to learn new things.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Me</h5>
+
+                <p class="mb-2">If you want to get in touch with me, <br>feel free to write me at:</p>
+                <a href="mailto:federicoterzi96@gmail.com" class="email-link">federicoterzi96@gmail.com</a>
+                
+                <br>
+
+                <ul class="list-unstyled social-bar mt-2">
+                    <li><a class="text-muted" href="https://github.com/federico-terzi/"><img src="/assets/images/github-icon-white.png"></a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/channel/UCLXAviTgz5MuJrR_rbLGNWg"><img src="/assets/images/youtube-icon-white.png"></a></li>
+                    <li><a class="text-muted" href="https://twitter.com/terzi_federico"><img src="/assets/images/twitter-icon-white.png"></a></li>
+                    <li><a class="text-muted" href="https://www.linkedin.com/in/federico-terzi/"><img src="/assets/images/linkedin-icon-white.png"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Navigate</h5>
+                <ul class="list-unstyled text-small">
+                    {% for item in site.data.navigation %}
+                    <li>
+                        <a class="text-muted" href="{{ item.link }}">{{ item.name }}</a>
+                    </li>
+                    {% endfor %}
+                    <li><a class="text-muted" href="/privacypolicy.html">Privacy Policy</a></li>
+                    <li><a class="text-muted" href="/cookiepolicy.html">Cookie Policy</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+</div>
+
+<p class="bottom-paragraph">Copyright © Federico Terzi 2019 - Icons by <a href="https://icons8.com/">icon8</a></p>
