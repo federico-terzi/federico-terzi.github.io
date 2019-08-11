@@ -18,8 +18,11 @@ So about a year ago, I decided to relearn how to type **properly**, embracing th
 
 The first thing I did was **printing a keyboard layout diagram and sticking it on my monitor**, so each time I had a doubt, I could check the correct finger at a glance by watching the color.
 
+<figure>
+  <img src="/assets/images/keyboardlayout.png" />
+  <figcaption>Image from <a href="https://www.typing-lessons.org/">Peter's Online Typing Course</a></figcaption>
+</figure>
 
-[Monitor sticker image]
 
 At the same time, I started practicing on [10 Fast Fingers](https://10fastfingers.com/typing-test/english) and [Speedcoder](http://www.speedcoder.net) about 20 minutes a day.
 
