@@ -1,10 +1,10 @@
 - name: About
   link: /
 - name: Portfolio
-  link: /portfolio.html
+  link: /portfolio/
 - name: Blog
-  link: /blog.html
+  link: /blog/
 - name: Thesis
-  link: /thesis.html
+  link: /thesis/
 - name: Contact
-  link: /contact.html
+  link: /contact/

@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://federicoterzi.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  federico-terzi
 
-permalink: /blog/:title:output_ext
+permalink: /blog/:title/
 
 collections:
   portfolios:
