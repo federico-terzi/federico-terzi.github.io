@@ -3,7 +3,7 @@ layout: post
 title:  "Learning How to Type Properly Makes You a Better Programmer"
 author: Federico Terzi
 image: /assets/images/keyboards.jpg
-date:   2019-08-10
+date:   2019-08-20
 categories: keyboard productivity
 ---
 Like many people, I wasn’t a good typer. I started using computers when I was a kid and, by the time I grew into an adult, I developed my personal typing style, using *only 5 fingers*. 
