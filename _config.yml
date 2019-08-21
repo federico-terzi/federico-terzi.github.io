@@ -17,9 +17,8 @@ title: Federico Terzi
 subtitle: Engineering Student and Developer
 email: federicoterzi96@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Engineering Student and Developer based in Italy. Learn more about me and my projects,
+  including Machine Learning, Mobile Apps, Web, Games and a bit of Arduino.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://federicoterzi.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  federico-terzi
