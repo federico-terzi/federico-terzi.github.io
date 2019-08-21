@@ -23,6 +23,9 @@ layout: default
             {% if project.gplay %}
                 <a href="{{project.gplay}}" target="_blank" class="btn btn-primary"><span class="oi oi-media-play"></span> Google Play Store</a>
             {% endif %}
+            {% if project.playonline %}
+                <a href="{{project.playonline}}" target="_blank" class="btn btn-primary"><span class="oi oi-media-play"></span> Play Online</a>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
