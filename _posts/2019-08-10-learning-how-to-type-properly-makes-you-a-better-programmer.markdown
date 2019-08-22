@@ -36,7 +36,7 @@ After 2 months **I was comfortable with touch typing**, my speed greatly improve
 
 ### Moving to the US Keyboard layout
 
-If you live in the US this may sound obvious to you, but **the English US Keyboard Layout is the best for programming**. Why? Because the people how invented most programming languages used that layout.
+If you live in the US this may sound obvious to you, but **the English US Keyboard Layout is the best for programming**. Why? Because the people who invented most programming languages used that layout.
 
 Being Italian, I always used the Italian layout and, while the letters and digits were arranged in the same way as the US layout (QWERTY), the symbols were not. **Most of the symbols commonly used in programming were difficult**, if not impossible, to write on an Italian keyboard ( looking at you ~ ).
 
