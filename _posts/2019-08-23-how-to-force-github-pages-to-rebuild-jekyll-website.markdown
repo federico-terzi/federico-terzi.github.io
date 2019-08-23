@@ -48,9 +48,7 @@ curl -X POST \
 
 And then type the password.
 
-### What if I get a 404 error
-
-If you encounter a 404 error, double-check the URL and the credentials that you inserted, as they are probably incorrect.
+**If you encounter a 404 error**, double-check the URL and the credentials that you inserted, as they are probably incorrect.
 
 
 
