@@ -10,7 +10,7 @@ A month ago I decided to rebuild my website using [Jekyll](https://jekyllrb.com)
 
 If you plan to deploy a Jekyll website on Github Pages the process is straightforward: you **push your website source on the correct branch** ( `master` for a personal website or `gh-pages` for a project website ) and then the site gets compiled automatically by the Github Servers.
 
-While this works almost always correctly, **sometimes the servers don’t compile the source**, and the website gets stuck to the old version.
+While this works almost always correctly, **sometimes the servers don’t compile the source**, and the website gets stuck on the old version.
 
 ### Force a Rebuild
 
