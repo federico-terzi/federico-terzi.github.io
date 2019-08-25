@@ -6,7 +6,13 @@ hideTitle: True
     <h2 class="post-title">{{page.title}}</h2>
     <p class="text-center post-subtitle">{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-    <img src="{{page.image}}" class="post-image" />
+    {% if page.youtube %}
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe src="{{page.youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    {% else %}
+        <img src="{{page.image}}" class="post-image" />
+    {% endif %}
 </div>
 
 <div class="post-content">
