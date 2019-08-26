@@ -12,7 +12,7 @@ categories: telegram randomdevtricks
 
 <figure>
  <video width="376" height="646" loop autoplay style="object-fit: cover">
-                                <source src="https://tlgur.com/s/upload.mp4" type="video/mp4">
+                                <source src="/assets/videos/tlgur.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
   <figcaption>Image from <a href="https://tlgur.com/">TLGUR Official Website</a></figcaption>
