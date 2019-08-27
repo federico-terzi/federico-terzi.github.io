@@ -35,6 +35,7 @@
 
 .post-row {
     margin-bottom: 10px;
+    min-height: 220px;
 
     @media screen and (max-width: $screen-tablet) {
         margin-bottom: 30px;

@@ -24,6 +24,7 @@ url: "https://federicoterzi.com" # the base hostname & protocol for your site, e
 github_username:  federico-terzi
 
 permalink: /blog/:title/
+highlighter: rouge
 
 collections:
   portfolios:

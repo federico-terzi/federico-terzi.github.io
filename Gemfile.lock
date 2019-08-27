@@ -250,6 +250,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
+  rouge
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
