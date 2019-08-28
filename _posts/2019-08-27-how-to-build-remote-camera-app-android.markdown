@@ -4,6 +4,7 @@ title:  "Building a Remote Camera App for Android"
 author: Federico Terzi
 image: /assets/images/remotecameraapp.jpg
 date:   2019-08-27
+youtube: https://www.youtube-nocookie.com/embed/LfyiuzxwxRM
 categories: android development
 ---
 I love automating things, especially the boring ones. Having a [Youtube channel](https://www.youtube.com/c/FedericoTerzi), I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.
@@ -67,9 +68,14 @@ This solution also has the additional advantage that it could be possible to cre
 The easiest way to bundle a web server on Android is the [NanoHTTPD Library](https://github.com/NanoHttpd/nanohttpd), which can be used by including the following dependency in the Gradle config file:
 
 ```
-
 implementation 'org.nanohttpd:nanohttpd:2.3.1'
+```
 
+I was also necessary to add the following permissions in the `AndroidManifest.xml`:
+
+```xml
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.INTERNET" />
 ```
 
 I then created the `StudioServer` class extending the `NanoHTTPD` class and overriding the `serve` method. This function will be called anytime a client makes an HTTP request to the bundled webserver.
