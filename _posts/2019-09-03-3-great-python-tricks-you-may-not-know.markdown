@@ -10,7 +10,7 @@ Python is a _wonderful_ language. Other than being simple to learn and fast to w
 
 ## tqdm
 
-If you ever use Python to do some sort of elaboration, chances are you have found yourself writing a for loop, iterating through a list of items to process each one them. For example:
+If you ever use Python to do some sort of elaboration, chances are you find yourself writing a for loop, iterating through a list of items to process each one them. For example:
 
 ```python
 for item in range(10000000):
@@ -46,7 +46,7 @@ for item in tqdm(range(10000000)):
 
 Now if you execute this code, you will see a nice progress bar appear in your terminal.
 
-
+![tqdm Progress Bar](/assets/images/tqdmanimated.gif)
 
 As you can see, besides the progress, it also shows the speed and the expected remaining time. The great thing is that you can use **tqdm** with any iterable, making it trivial to improve your existing scripts!
 
@@ -54,7 +54,7 @@ This library has many more features, so if you haven’t already, check out the[
 
 ## defaultdict
 
-One of the best things about Python is its simplicity. Once you know the basic structures of the language, you can immediately start writing code with it. While being a great aspect, it sometimes causes people to miss some neat data structures, such as DefaultDict. Let’s see where it can be useful with an example:
+One of the best things about Python is its simplicity. Once you know the basic structures of the language, you can immediately start writing code with it. While being a great aspect, it sometimes causes people to miss some neat data structures, such as `defaultdict`. Let’s see where it can be useful with an example:
 
 Given a text, you want to group words by their initials. The structure we’re looking for here is a **dictionary of lists**, having the initials as key and a list of words as value, something like this:
 
