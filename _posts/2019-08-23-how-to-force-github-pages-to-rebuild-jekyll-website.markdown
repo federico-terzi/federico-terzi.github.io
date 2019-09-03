@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Force Github Pages to Rebuild Jekyll Website"
 author: Federico Terzi
-image: /assets/images/githubpagesrebuild.jpg
+image: /assets/images/githubpagesrebuild.png
 date:   2019-08-23
 categories: jekyll github pages
 ---

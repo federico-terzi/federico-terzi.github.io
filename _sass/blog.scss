@@ -1,19 +1,19 @@
 .post-image {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
     max-height: 250px;
     margin-bottom: 1rem;
 }
 
 .post-list-image {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 200px;
+    width: 230px;
 
     @media screen and (max-width: $screen-tablet) {
+        
         margin-bottom: 15px;
-        max-height: 200px;
+        
     }
 }
 
