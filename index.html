@@ -31,3 +31,23 @@ avoidContainer: True
         </div>
     </div>
 </div>
+
+
+<div class="container text-center">
+        <h3 class="mt-5 mb-4">Latest posts:</h3>    
+    
+        <div class="mt-5 row">
+            {% assign posts = site.posts | where_exp:"post","post.url != page.url" %}
+            {% for post in posts limit:4 %}
+            <div class="col-lg-3 col-md-6">
+                <a href="{{ post.url }}">
+                    <img src="{{post.image}}" class="related-post-img mb-4 img-fluid" alt="{{ post.title }}">
+                </a>   
+                <a href="{{ post.url }}">
+                    <h5 class="mt-2 mb-3">{{ post.title }}</h5>
+                </a>    
+                <p>{{ post.excerpt | strip_html | truncate: 100}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>

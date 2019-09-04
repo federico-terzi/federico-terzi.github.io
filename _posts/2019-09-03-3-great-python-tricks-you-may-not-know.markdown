@@ -5,7 +5,7 @@ author: Federico Terzi
 image: /assets/images/3greatpythontricks.png
 date:   2019-09-03
 youtube: https://www.youtube-nocookie.com/embed/Lj2SZkPOp10
-categories: python tricks randomdevtricks3
+categories: python tricks randomdevtricks development
 ---
 Python is a _wonderful_ language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its **huge ecosystem**. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:
 
