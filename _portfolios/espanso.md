@@ -1,6 +1,6 @@
 ---
 name: espanso
-priority: 100
+priority: 220
 image: /assets/images/espanso.gif
 github: https://github.com/federico-terzi/espanso
 website: https://espanso.org
