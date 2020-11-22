@@ -4,7 +4,6 @@ title:  "How to Promote Your Open Source Project"
 author: Federico Terzi
 image: /assets/images/githubstars.png
 date:   2020-02-07
-youtube: https://www.youtube-nocookie.com/embed/AXJyYto21Fk
 categories: github project promotion opensource how to tutorial
 ---
 As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.

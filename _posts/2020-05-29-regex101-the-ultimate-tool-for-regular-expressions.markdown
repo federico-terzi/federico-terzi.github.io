@@ -4,7 +4,6 @@ title:  "Regex101 - The Ultimate Tool for Regular Expressions"
 author: Federico Terzi
 image: /assets/images/regex.png
 date:   2020-05-29
-youtube: https://www.youtube-nocookie.com/embed/79WVN-vGllU
 categories: regex tutorial visual debugger regex101 regular expression
 ---
 If you've been programming for a while, you will surely know how useful **regular expressions** can be when dealing with text.

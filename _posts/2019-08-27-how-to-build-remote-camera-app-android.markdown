@@ -4,7 +4,6 @@ title:  "Building a Remote Camera App for Android"
 author: Federico Terzi
 image: /assets/images/remotecameraapp.png
 date:   2019-08-27
-youtube: https://www.youtube-nocookie.com/embed/LfyiuzxwxRM
 categories: android development
 ---
 I love automating things, especially the boring ones. Having a [Youtube channel](https://www.youtube.com/c/FedericoTerzi), I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.
