@@ -60,8 +60,15 @@
 }
 
 .post-content {
+    max-width: 940px;
+    margin: auto;
     p {
-        text-align: justify
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+    li {
+        margin-bottom: 10px;
+        font-family: 'Times New Roman', Times, serif !important;
     }
     h3 {
         margin: 30px 0 15px 0;
@@ -70,7 +77,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 50%;
+        max-width: 70%;
         height: auto;
         @media screen and (max-width: $screen-tablet) {
             max-width: 100%;
