@@ -14,20 +14,30 @@ avoidContainer: True
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-sm-4 about-card text-center">
+        <div class="col-sm-6 col-lg-3 about-card text-center">
             <img src="/assets/images/robotcolorato.png" class="mx-auto d-block"/>
             <h4>I graduated in Computer Engineering from the University of Bologna and 
                 I am currently studying for my master degree.</h4>
         </div>
-        <div class="col-sm-4 about-card text-center">
+        <div class="col-sm-6 col-lg-3 about-card text-center">
             <img src="/assets/images/robotlearn.png" class="mx-auto d-block"/>
             <h4>I always try to expand my skillset by creating new projects. 
                 You can check out some of them on my Portfolio, you will find Web Apps, 
                 Games, Machine Learning and even a bit of Arduino.</h4>
         </div>
-        <div class="col-sm-4 about-card text-center">
+        
+        
+        <div class="col-sm-6 col-lg-3 about-card text-center">
             <img src="/assets/images/robotmusic.png" class="mx-auto d-block"/>
             <h4>In my spare time I also enjoy spending time with my family and friends, playing the piano and drawing.</h4>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 about-card text-center">
+            <img src="/assets/images/bookrobot.png" class="mx-auto d-block"/>
+            <h4>I'm currently reading <i><a href="{{site.data.books.last.link}}" target="_blank">{{site.data.books.last.name}}</a></i>, 
+                {% assign reverseBooks = site.data.books | reverse %}
+                and I've previously read <i><a href="{{reverseBooks[1].link}}" target="_blank">{{reverseBooks[1].name}}</a></i>. 
+                You can also check my <a href="books.html">books recommendations</a>.</h4>
         </div>
     </div>
 </div>
@@ -36,6 +46,7 @@ avoidContainer: True
     <div class="container text-center">
         <h3 class="mt-5 mb-4">Latest posts:</h3>    
     
+        <p>Sometimes I also enjoy writing technical articles, although I'm not particularly good at it ¯\_(ツ)_/¯</p>
         <div class="mt-5 row">
             {% assign posts = site.posts | where_exp:"post","post.url != page.url" %}
             {% for post in posts limit:4 %}
