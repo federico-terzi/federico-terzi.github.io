@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Federico Terzi
-subtitle: Engineering Student and Developer
+subtitle: A Software Engineering Journey
 email: federicoterzi96@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Engineering Student and Developer based in Italy. Learn more about me and my projects,
