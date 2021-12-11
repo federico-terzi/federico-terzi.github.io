@@ -53,3 +53,11 @@
 - name: "Happy"
   author: "Derren Brown"
   link: "https://www.amazon.com/Happy-More-Less-Everything-Absolutely/dp/0593076192"
+
+- name: "Accelerate"
+  author: "Nicole Forsgren"
+  link: "https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339"
+
+- name: "The Programmer's Brain"
+  author: "Felienne Hermans"
+  link: "https://www.amazon.com/Programmers-Brain-every-programmer-cognition/dp/1617298670"
