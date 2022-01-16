@@ -47,16 +47,17 @@ export default {
 .name {
   font-weight: bold;
   font-size: 24px;
-  line-height: 24px;
-  margin-top: -1px;
-  margin-bottom: 2px;
+  line-height: 28px;
   color: var(--accent-primary);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .tagline {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 768px) {

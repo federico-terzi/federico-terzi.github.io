@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-layout-container">
     <TheHeader />
     <Nuxt />
   </div>
@@ -27,5 +27,10 @@ body {
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.main-layout-container {
+  max-width: 1512px;
+  margin: auto;
 }
 </style>

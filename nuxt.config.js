@@ -38,7 +38,7 @@ export default {
       {
         families: {
           Inter: {
-            wght: [400, 700],
+            wght: ['400;700'],
           },
         },
         subsets: ['latin'],

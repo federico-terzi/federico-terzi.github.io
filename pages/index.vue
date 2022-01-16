@@ -1,15 +1,24 @@
 <template>
-  <p class="test">Hello</p>
+  <div>
+    <div class="jumbo">
+      <jumbo-tag-line />
+      <jumbo-image />
+    </div>
+  </div>
 </template>
 
 <script>
+import JumboImage from '~/components/JumboImage.vue'
+import JumboTagLine from '~/components/JumboTagLine.vue'
 export default {
+  components: { JumboImage, JumboTagLine },
   name: 'IndexPage',
 }
 </script>
 
 <style scoped>
-.test {
-  color: var(--accent-primary);
+.jumbo {
+  display: flex;
+  height: 75vh;
 }
 </style>
