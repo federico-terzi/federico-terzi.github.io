@@ -2,7 +2,6 @@
 layout: post
 title:  "Rust vs C++, which is better and why?"
 author: Federico Terzi
-image: /assets/images/rustcpp.png
 date:   2021-05-04
 categories: rust cpp c comparison between difference similarity pro cons advantages
 ---

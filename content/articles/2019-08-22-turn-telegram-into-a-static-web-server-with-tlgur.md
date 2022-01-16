@@ -2,7 +2,6 @@
 layout: post
 title:  "Turn Telegram into a Static Web Server with TLGUR"
 author: Federico Terzi
-image: /assets/images/tlgur.png
 date:   2019-08-22
 categories: telegram randomdevtricks
 ---

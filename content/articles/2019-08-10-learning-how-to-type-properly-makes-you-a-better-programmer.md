@@ -2,7 +2,6 @@
 layout: post
 title:  "Learning How to Type Properly Makes You a Better Programmer"
 author: Federico Terzi
-image: /assets/images/keyboards.png
 date:   2019-08-20
 categories: keyboard productivity
 ---

@@ -2,7 +2,6 @@
 layout: post
 title:  "Regex101 - The Ultimate Tool for Regular Expressions"
 author: Federico Terzi
-image: /assets/images/regex.png
 date:   2020-05-29
 categories: regex tutorial visual debugger regex101 regular expression
 ---

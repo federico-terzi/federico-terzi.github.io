@@ -2,7 +2,6 @@
 layout: post
 title:  "Building a Remote Camera App for Android"
 author: Federico Terzi
-image: /assets/images/remotecameraapp.png
 date:   2019-08-27
 categories: android development
 ---

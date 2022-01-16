@@ -2,7 +2,6 @@
 layout: post
 title:  "How to Promote Your Open Source Project"
 author: Federico Terzi
-image: /assets/images/githubstars.png
 date:   2020-02-07
 categories: github project promotion opensource how to tutorial
 ---

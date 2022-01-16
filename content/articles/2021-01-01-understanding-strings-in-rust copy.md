@@ -2,7 +2,6 @@
 layout: post
 title:  "Understanding Strings in Rust"
 author: Federico Terzi
-image: /assets/images/ruststring.png
 date:   2021-01-01
 categories: strings str rust tutorial guide understand understanding ownership
 ---

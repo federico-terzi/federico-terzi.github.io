@@ -2,7 +2,6 @@
 layout: post
 title:  "3 Great Python Tricks You May Not Know"
 author: Federico Terzi
-image: /assets/images/3greatpythontricks.png
 date:   2019-09-03
 categories: python tricks randomdevtricks development
 ---

@@ -2,7 +2,6 @@
 layout: post
 title:  "Why Electron is a Necessary Evil"
 author: Federico Terzi
-image: /assets/images/Electron.png
 date:   2021-01-21
 categories: electron cross-platform cross platform desktop application app wxwidgets qt alternative localhost server sciter
 ---

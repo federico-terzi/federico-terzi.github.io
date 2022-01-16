@@ -2,7 +2,6 @@
 layout: post
 title:  "How to Publish your Rust project on Homebrew"
 author: Federico Terzi
-image: /assets/images/rusthomebrew.png
 date:   2019-10-06
 categories: rust homebrew macos publish project cli app github manager
 ---
