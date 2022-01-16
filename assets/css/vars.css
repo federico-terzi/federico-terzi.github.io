@@ -1,0 +1,7 @@
+html {
+  --content-primary: #1a1a1a;
+  --accent-primary: #c84c32;
+  --accent-secondary: #2e4364;
+  --background-primary: #ffffff;
+  --details: rgba(26, 26, 26, 0.1);
+}
