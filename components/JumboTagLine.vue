@@ -84,6 +84,28 @@ export default {
   text-decoration-line: underline;
 }
 
+@media (max-width: 992px) {
+  .container {
+    font-size: 28px;
+    line-height: 34px;
+    flex: 1;
+    align-items: flex-start;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .hand {
+    height: 28px;
+    width: 28px;
+  }
+
+  .hi-and-name {
+    justify-content: center;
+  }
+}
+
 /* Animation taken from https://jarv.is/notes/css-waving-hand-emoji/ */
 @keyframes wave-animation {
   0% {
@@ -168,18 +190,18 @@ export default {
 
 @keyframes hi-offset {
   0% {
-    transform: translateX(200px);
+    transform: translateX(25vw) scale(2);
     transform-origin: 50% 100%;
     filter: blur(40px);
     opacity: 0;
   }
   50% {
-    transform: translateX(200px);
+    transform: translateX(25vw) scale(2);
     filter: blur(0);
     opacity: 1;
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(0) scale(1);
   }
 }
 </style>

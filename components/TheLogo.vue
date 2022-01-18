@@ -30,4 +30,21 @@ export default {
   left: -3px;
   top: -1px;
 }
+
+@media (max-width: 992px) {
+  .container {
+    width: 22px;
+  }
+
+  .f {
+    height: 22px;
+    width: 22px;
+  }
+
+  .t {
+    height: 22px;
+    width: 22px;
+    left: -1px;
+  }
+}
 </style>

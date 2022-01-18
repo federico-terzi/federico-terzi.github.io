@@ -2,7 +2,9 @@
   <div class="main-layout-container">
     <TheBackground />
     <TheHeader />
-    <Nuxt />
+    <div class="main-layout-content">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
@@ -33,5 +35,9 @@ body {
 .main-layout-container {
   max-width: 1512px;
   margin: auto;
+}
+
+.main-layout-content {
+  padding-top: 95px;
 }
 </style>

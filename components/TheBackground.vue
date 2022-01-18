@@ -19,11 +19,16 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .blurred {
   filter: blur(50px);
-  z-index: 0;
+  height: 450px;
+  width: 450px;
 }
 
 .animate {
@@ -37,8 +42,6 @@ export default {
 
   background-color: var(--accent-primary);
   opacity: 0.1;
-  height: 450px;
-  width: 450px;
 }
 
 .blue {
@@ -48,8 +51,6 @@ export default {
 
   background-color: var(--accent-secondary);
   opacity: 0.1;
-  height: 450px;
-  width: 450px;
 }
 
 .yellow {
@@ -59,8 +60,13 @@ export default {
 
   background-color: var(--accent-tertiary);
   opacity: 0.3;
-  height: 450px;
-  width: 450px;
+}
+
+@media (max-width: 992px) {
+  .blurred {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 /* ----------------------------------------------

@@ -1,14 +1,16 @@
 <template>
   <div class="header">
-    <div class="details">
-      <the-logo class="logo" />
-      <div class="details-text">
-        <span class="name">Federico Terzi</span>
-        <span class="tagline">A Software Engineering Journey</span>
+    <div class="content">
+      <div class="details">
+        <the-logo class="logo" />
+        <div class="details-text">
+          <span class="name">Federico Terzi</span>
+          <span class="tagline">A Software Engineering Journey</span>
+        </div>
       </div>
-    </div>
-    <div>
-      <span>About</span>
+      <div class="extended-menu">
+        <span>About</span>
+      </div>
     </div>
   </div>
 </template>
@@ -23,10 +25,20 @@ export default {
 
 <style scoped>
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 25px;
+  max-width: 1512px;
+  margin: auto;
 }
 
 /* Details */
@@ -60,13 +72,21 @@ export default {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .name {
     font-size: 14px;
     line-height: 17px;
   }
 
   .tagline {
+    display: none;
+  }
+
+  .content {
+    padding: 14px;
+  }
+
+  .extended-menu {
     display: none;
   }
 }
