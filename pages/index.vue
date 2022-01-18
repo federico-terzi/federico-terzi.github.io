@@ -20,5 +20,10 @@ export default {
 .jumbo {
   display: flex;
   height: 75vh;
+
+  background-image: url('~/assets/svg/background-lines.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom -5vh right -10vw;
 }
 </style>

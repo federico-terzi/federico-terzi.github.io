@@ -16,11 +16,12 @@ export default {
   align-items: center;
   justify-content: center;
   flex: 1;
+  z-index: 2;
 }
 
 .jumbo-image {
-  width: 430px;
-  height: 518px;
+  width: 530px;
+  height: 580px;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
