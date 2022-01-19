@@ -11,39 +11,8 @@
 <script>
 import '../assets/css/vars.css'
 
-// Taken from: https://pqina.nl/blog/applying-styles-based-on-the-user-scroll-position-with-smart-css/
-const debounce = (fn) => {
-  let frame
-  return (...params) => {
-    if (frame) {
-      cancelAnimationFrame(frame)
-    }
-
-    frame = requestAnimationFrame(() => {
-      fn(...params)
-    })
-  }
-}
-
 export default {
   name: 'DefaultLayout',
-  beforeMount() {
-    document.addEventListener('scroll', this.handleScrollDebounced, {
-      passive: true,
-    })
-    this.handleScrollDebounced()
-  },
-  beforeDestroy() {
-    document.removeEventListener('scroll', this.handleScrollDebounced)
-  },
-  methods: {
-    handleScroll() {
-      document.documentElement.dataset.scroll = window.scrollY
-    },
-    handleScrollDebounced() {
-      debounce(this.handleScroll)()
-    },
-  },
 }
 </script>
 

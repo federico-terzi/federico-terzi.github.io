@@ -9,7 +9,26 @@
   <head {{ HEAD_ATTRS }}>
     {{ HEAD }}
     <script>
-      document.documentElement.dataset.scroll = 0
+      // Taken from: https://pqina.nl/blog/applying-styles-based-on-the-user-scroll-position-with-smart-css/
+      const debounce = (fn) => {
+        let frame
+        return (...params) => {
+          if (frame) {
+            cancelAnimationFrame(frame)
+          }
+
+          frame = requestAnimationFrame(() => {
+            fn(...params)
+          })
+        }
+      }
+      const handleScroll = () => {
+        document.documentElement.dataset.scroll = window.scrollY
+      }
+      document.addEventListener('scroll', debounce(handleScroll), {
+        passive: true,
+      })
+      handleScroll()
     </script>
   </head>
   <body {{ BODY_ATTRS }}>
