@@ -5,6 +5,7 @@
       <jumbo-image />
     </div>
     <scoll-down-indicator />
+    <div class="test"></div>
   </div>
 </template>
 
@@ -24,6 +25,10 @@ export default {
   height: 75vh;
   padding-top: 95px;
   margin-top: -95px;
+}
+
+.test {
+  height: 3000px;
 }
 
 @media (max-width: 992px) {

@@ -30,6 +30,16 @@ export default {
   right: 0;
   left: 0;
   width: 100%;
+  z-index: 20;
+
+  background-color: transparent;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+html:not([data-scroll='0']) .header {
+  background-color: var(--background-primary);
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -54,6 +64,7 @@ export default {
 .details-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .name {
@@ -80,6 +91,15 @@ export default {
 
   .tagline {
     display: none;
+  }
+
+  .details-text {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  html:not([data-scroll='0']) .details-text {
+    opacity: 1;
   }
 
   .content {

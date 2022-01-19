@@ -19,6 +19,7 @@ export default {
 .container {
   position: relative;
   width: 46px;
+  height: 46px;
 }
 
 .f {
@@ -33,6 +34,7 @@ export default {
 
 @media (max-width: 992px) {
   .container {
+    height: 32px;
     width: 32px;
   }
 
