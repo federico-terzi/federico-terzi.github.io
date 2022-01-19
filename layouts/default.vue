@@ -40,4 +40,10 @@ body {
 .main-layout-content {
   padding-top: 95px;
 }
+
+@media (max-width: 992px) {
+  .main-layout-content {
+    padding-top: 50px;
+  }
+}
 </style>

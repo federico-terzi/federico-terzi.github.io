@@ -44,6 +44,7 @@ export default {
 
 .content {
   max-width: 580px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .hi-and-name {

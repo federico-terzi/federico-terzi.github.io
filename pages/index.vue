@@ -4,14 +4,16 @@
       <jumbo-tag-line class="jumbo-tag-line" />
       <jumbo-image />
     </div>
+    <scoll-down-indicator />
   </div>
 </template>
 
 <script>
 import JumboImage from '~/components/JumboImage.vue'
 import JumboTagLine from '~/components/JumboTagLine.vue'
+import ScollDownIndicator from '~/components/ScollDownIndicator.vue'
 export default {
-  components: { JumboImage, JumboTagLine },
+  components: { JumboImage, JumboTagLine, ScollDownIndicator },
   name: 'IndexPage',
 }
 </script>
@@ -22,20 +24,13 @@ export default {
   height: 75vh;
   padding-top: 95px;
   margin-top: -95px;
-
-  background-image: url('~/assets/svg/background-lines.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: bottom -5vh right -10vw;
 }
 
 @media (max-width: 992px) {
   .jumbo {
     flex-direction: column-reverse;
     justify-content: start;
-
-    background-size: 200% 200%;
-    background-position: right 25% top 60%;
+    height: 70vh;
   }
 
   .jumbo-tag-line {

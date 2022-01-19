@@ -41,7 +41,7 @@ export default {
   left: -10vw;
 
   background-color: var(--accent-primary);
-  opacity: 0.1;
+  opacity: 0.15;
 }
 
 .blue {
@@ -50,7 +50,7 @@ export default {
   right: -10vw;
 
   background-color: var(--accent-secondary);
-  opacity: 0.1;
+  opacity: 0.15;
 }
 
 .yellow {
@@ -59,7 +59,7 @@ export default {
   left: 40vw;
 
   background-color: var(--accent-tertiary);
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 @media (max-width: 992px) {

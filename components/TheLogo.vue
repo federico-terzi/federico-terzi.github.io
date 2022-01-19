@@ -33,18 +33,19 @@ export default {
 
 @media (max-width: 992px) {
   .container {
-    width: 22px;
+    width: 32px;
   }
 
   .f {
-    height: 22px;
-    width: 22px;
+    height: 32px;
+    width: 32px;
   }
 
   .t {
-    height: 22px;
-    width: 22px;
+    height: 32px;
+    width: 32px;
     left: -1px;
+    top: 0px;
   }
 }
 </style>
