@@ -4,17 +4,24 @@
       <jumbo-tag-line class="jumbo-tag-line" />
       <jumbo-image />
     </div>
-    <scoll-down-indicator />
+    <scoll-down-indicator class="scroll-indicator" />
+    <about-section />
     <div class="test"></div>
   </div>
 </template>
 
 <script>
+import AboutSection from '~/components/AboutSection.vue'
 import JumboImage from '~/components/JumboImage.vue'
 import JumboTagLine from '~/components/JumboTagLine.vue'
 import ScollDownIndicator from '~/components/ScollDownIndicator.vue'
 export default {
-  components: { JumboImage, JumboTagLine, ScollDownIndicator },
+  components: {
+    JumboImage,
+    JumboTagLine,
+    ScollDownIndicator,
+    AboutSection,
+  },
   name: 'IndexPage',
 }
 </script>
@@ -31,6 +38,10 @@ export default {
   height: 3000px;
 }
 
+.scroll-indicator {
+  height: 25vh;
+}
+
 @media (max-width: 992px) {
   .jumbo {
     flex-direction: column-reverse;
@@ -40,6 +51,10 @@ export default {
 
   .jumbo-tag-line {
     margin-top: 20px;
+  }
+
+  .scroll-indicator {
+    height: 20vh;
   }
 }
 </style>

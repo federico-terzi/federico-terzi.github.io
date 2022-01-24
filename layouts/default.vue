@@ -21,7 +21,7 @@ html,
 body {
   font-family: Inter, sans-serif;
   color: var(--content-primary);
-  background-color: var(--background-primary);
+  background-color: transparent;
 
   margin: 0;
   padding: 0;

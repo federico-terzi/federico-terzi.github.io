@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" @click="scroll">
     <span class="label">Scroll to know more</span>
     <div class="arrows">
       <RedArrow class="red arrow" />
@@ -15,6 +15,21 @@ import RedArrow from '~/assets/svg/arrow-down-red.svg?inline'
 export default {
   name: 'ScrollDownIndicator',
   components: { YellowArrow, RedArrow },
+  methods: {
+    scroll() {
+      const headerElement = document.getElementById('header')
+      const headerHeight = headerElement.getBoundingClientRect().height
+
+      const aboutSection = document.getElementById('about-section')
+      const elementPosition = aboutSection.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - headerHeight
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      })
+    },
+  },
 }
 </script>
 
@@ -26,6 +41,8 @@ export default {
 
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 5s;
+
+  cursor: pointer;
 }
 
 .label {
