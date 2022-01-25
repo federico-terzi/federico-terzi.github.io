@@ -6,6 +6,7 @@ date:   2021-01-01
 categories: strings str rust tutorial guide understand understanding ownership
 ---
 When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the `String` and the `&str` types.
+<!--more-->
 
 As you go on with examples and tutorials, you see that both of them are thoroughly used, so my natural question was: when should I use one over the other?
 

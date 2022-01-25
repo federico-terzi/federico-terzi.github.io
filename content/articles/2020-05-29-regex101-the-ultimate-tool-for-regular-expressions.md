@@ -8,6 +8,7 @@ categories: regex tutorial visual debugger regex101 regular expression
 If you've been programming for a while, you will surely know how useful **regular expressions** can be when dealing with text.
 
 You may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.
+<!--more-->
 
 Today I'm going to introduce you to an incredibly useful tool called [Regex101](https://regex101.com/), which makes working with Regexes a breeze.
 

@@ -7,6 +7,7 @@ categories: rust cpp c comparison between difference similarity pro cons advanta
 ---
 
 This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.
+<!--more-->
 
 ## Similarities
 

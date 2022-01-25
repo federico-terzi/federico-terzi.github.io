@@ -7,6 +7,7 @@ categories: rust homebrew macos publish project cli app github manager
 ---
 
 Last week I finally released the first version of [espanso](https://espanso.org), a cross-platform, system-wide *Text Expander* written in Rust.
+<!--more-->
 
 <figure>
   <img src="/assets/images/espanso.gif" />

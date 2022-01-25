@@ -6,6 +6,7 @@ date:   2019-08-27
 categories: android development
 ---
 I love automating things, especially the boring ones. Having a [Youtube channel](https://www.youtube.com/c/FedericoTerzi), I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.
+<!--more-->
 
 My main bottlenecks are **cutting the video clips** and **transferring the videos to the PC**. Because I record those videos with my smartphone, I wanted an app that could:
 

@@ -6,6 +6,7 @@ date:   2019-08-23
 categories: jekyll github pages
 ---
 A month ago I decided to rebuild my website using [Jekyll](https://jekyllrb.com) for a couple of reasons: it’s the official tool used by *Github Pages* and it supports **blogging**. Considering also that Github Pages is free, this is pretty much one of the best ways to build a personal website nowadays and I'm very happy with the result.
+<!--more-->
 
 If you plan to deploy a Jekyll website on Github Pages the process is straightforward: you **push your website source on the correct branch** ( `master` for a personal website or `gh-pages` for a project website ) and then the site gets compiled automatically by the Github Servers.
 

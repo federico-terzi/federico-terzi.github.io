@@ -8,6 +8,8 @@ categories: rust tips tricks tip crates useful
 
 Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as [Espanso](https://github.com/federico-terzi/espanso)) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.
 
+<!--more-->
+
 ## Using Cow&lt;str> as return type
 
 Sometimes you need to write methods that accept a string slice (&str) and conditionally return either a modified version of it or the original one. For these cases, you might use [Cow&lt;str>](https://doc.rust-lang.org/std/borrow/enum.Cow.html), so that you only allocate new memory when necessary. 

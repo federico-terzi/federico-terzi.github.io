@@ -6,6 +6,7 @@ date:   2019-08-22
 categories: telegram randomdevtricks
 ---
 *Telegram* is one of the most popular messaging apps and probably the most loved by developers. The reasons are many, but I think that it mostly boils down to their openness, which led many programmers to create unique and interesting projects around it. Today I want to share one of those: **TLGUR**.
+<!--more-->
 
 [TLGUR](https://tlgur.com/) is a very simple Telegram bot, originally designed to share files and images with people who don’t use Telegram. In a nutshell, **after sending a file to the bot you receive a URL**, that you can then share with everyone. 
 

@@ -5,7 +5,9 @@ author: Federico Terzi
 date:   2021-01-21
 categories: electron cross-platform cross platform desktop application app wxwidgets qt alternative localhost server sciter
 ---
-Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine). This Chrome-ception allows developers to build complete desktop applications using web technologies, including HTML, CSS, JS, and the ~500 MB of node_modules we all know and love.
+Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine). 
+<!--more-->
+This Chrome-ception allows developers to build complete desktop applications using web technologies, including HTML, CSS, JS, and the ~500 MB of node_modules we all know and love.
 
 Jokes aside, Electron offers several benefits that made it the preferred choice for most desktop applications developed today, including:
 

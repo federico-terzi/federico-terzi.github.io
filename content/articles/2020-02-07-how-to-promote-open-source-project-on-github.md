@@ -8,6 +8,7 @@ categories: github project promotion opensource how to tutorial
 As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
 
 Turns out that promotion, probably the least favourable thing for a programmer, is important as well.
+<!--more-->
 
 In this article I’m going to summarize the things I learned with [espanso](https://github.com/federico-terzi/espanso), my latest open-source project which, by the time I’m writing this article, reached more than 500 GitHub stars in about 4 months. 
 
