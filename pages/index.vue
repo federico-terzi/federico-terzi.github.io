@@ -6,6 +6,7 @@
     </div>
     <scoll-down-indicator class="scroll-indicator" />
     <div class="home-divider"></div>
+    <a name="about" class="anchor" />
     <about-section />
     <div class="home-divider"></div>
     <latest-posts-section :articles="articles" />
@@ -68,6 +69,13 @@ export default {
   opacity: 0.05;
   margin-top: 160px;
   margin-bottom: 160px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
 }
 
 @media (max-width: 992px) {
