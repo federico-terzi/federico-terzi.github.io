@@ -45,6 +45,8 @@ body {
 @media (max-width: 992px) {
   .main-layout-content {
     padding-top: 50px;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 }
 </style>

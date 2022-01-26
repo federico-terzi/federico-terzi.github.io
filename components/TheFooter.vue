@@ -21,6 +21,8 @@ export default {
   text-align: center;
   color: var(--accent-secondary);
   margin-top: 40px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .bold {

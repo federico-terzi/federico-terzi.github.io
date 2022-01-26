@@ -24,14 +24,44 @@
           }}</NuxtLink>
         </template>
       </div>
+      <div class="open-mobile-menu" @click.stop="menuOpen = !menuOpen">
+        <MenuIcon class="menu-icon" />
+      </div>
+      <div class="mobile-menu" v-if="menuOpen">
+        <template v-for="(link, index) in links">
+          <a
+            :href="link.to"
+            :key="link.to"
+            v-if="link.useHtml"
+            class="menu-link"
+            @click.stop="menuOpen = false"
+            >{{ link.label }}</a
+          >
+          <NuxtLink
+            :to="link.to"
+            :key="link.to"
+            v-else
+            class="menu-link"
+            @click.native.stop="menuOpen = false"
+            >{{ link.label }}</NuxtLink
+          >
+          <div
+            class="menu-divider"
+            :key="link.to"
+            v-if="index !== links.length - 1"
+          />
+        </template>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import TheLogo from './TheLogo.vue'
+import MenuIcon from '~/assets/svg/menu.svg?inline'
+
 export default {
-  components: { TheLogo },
+  components: { TheLogo, MenuIcon },
   name: 'TheHeader',
   data: () => ({
     links: [
@@ -40,7 +70,19 @@ export default {
       { label: 'Blog', to: '/blog', useHtml: false },
       { label: 'Contact me', to: '/contact-me', useHtml: false },
     ],
+    menuOpen: false,
   }),
+  mounted() {
+    window.addEventListener('click', this.handleClickOutside)
+  },
+  methods: {
+    handleClickOutside() {
+      this.menuOpen = false
+    },
+  },
+  beforeDestroy() {
+    window.removeEventListener('click', this.handleClickOutside)
+  },
 }
 </script>
 
@@ -50,7 +92,6 @@ export default {
   top: 0;
   right: 0;
   left: 0;
-  width: 100%;
   z-index: 20;
 
   background-color: transparent;
@@ -109,7 +150,7 @@ html:not([data-scroll='0']) .header {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
-.extended-menu a {
+.menu-link {
   position: relative;
   font-style: normal;
   font-weight: bold;
@@ -121,7 +162,7 @@ html:not([data-scroll='0']) .header {
   transition: all 0.3s ease;
 }
 
-.extended-menu a:hover {
+.menu-link:hover {
   color: var(--accent-primary);
 }
 
@@ -143,6 +184,30 @@ html:not([data-scroll='0']) .header {
   transform: scaleX(1);
   opacity: 1;
   background-color: var(--accent-primary);
+}
+
+.open-mobile-menu {
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: var(--background-primary);
+  z-index: 1000;
+  box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-divider {
+  opacity: 0.05;
+  border-bottom: 2px solid #2e4364;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
 @media (max-width: 992px) {
@@ -170,6 +235,19 @@ html:not([data-scroll='0']) .header {
 
   .extended-menu {
     display: none;
+  }
+
+  .open-mobile-menu {
+    display: block;
+    margin-right: 4px;
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+  }
+
+  .menu-link {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
 }
 </style>

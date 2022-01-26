@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="jumbo-tag-container">
     <div class="content">
       <div class="hi-and-name">
         <div class="hi-container">
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.jumbo-tag-container {
   display: flex;
   flex: 1.5;
   align-items: center;
@@ -86,7 +86,7 @@ export default {
 }
 
 @media (max-width: 992px) {
-  .container {
+  .jumbo-tag-container {
     font-size: 28px;
     line-height: 34px;
     flex: 1;
@@ -191,18 +191,18 @@ export default {
 
 @keyframes hi-offset {
   0% {
-    transform: translateX(25vw) scale(2);
+    transform: translateX(25vw) translateY(40px) scale(2);
     transform-origin: 50% 100%;
     filter: blur(40px);
     opacity: 0;
   }
   50% {
-    transform: translateX(25vw) scale(2);
+    transform: translateX(25vw) translateY(40px) scale(2);
     filter: blur(0);
     opacity: 1;
   }
   100% {
-    transform: translateX(0) scale(1);
+    transform: translateX(0) translateY(0) scale(1);
   }
 }
 </style>

@@ -82,6 +82,7 @@ a.anchor {
   .jumbo {
     flex-direction: column-reverse;
     justify-content: start;
+    align-items: stretch;
     height: 70vh;
   }
 
