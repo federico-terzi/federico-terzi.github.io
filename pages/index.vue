@@ -5,9 +5,12 @@
       <jumbo-image />
     </div>
     <scoll-down-indicator class="scroll-indicator" />
+    <div class="home-divider"></div>
     <about-section />
-    <latest-posts-section class="latest-posts" :articles="articles" />
-    <div class="test"></div>
+    <div class="home-divider"></div>
+    <latest-posts-section :articles="articles" />
+    <div class="home-divider"></div>
+    <contact-section />
   </div>
 </template>
 
@@ -19,6 +22,7 @@ import JumboImage from '~/components/JumboImage.vue'
 import JumboTagLine from '~/components/JumboTagLine.vue'
 import LatestPostsSection from '~/components/LatestPostsSection.vue'
 import ScollDownIndicator from '~/components/ScollDownIndicator.vue'
+import ContactSection from '~/components/ContactSection.vue'
 
 export default {
   components: {
@@ -27,6 +31,7 @@ export default {
     ScollDownIndicator,
     AboutSection,
     LatestPostsSection,
+    ContactSection,
   },
   name: 'IndexPage',
   async asyncData({ $content }) {
@@ -55,16 +60,14 @@ export default {
   margin-top: -95px;
 }
 
-.test {
-  height: 3000px;
-}
-
 .scroll-indicator {
-  height: 25vh;
+  height: 15vh;
 }
 
-.latest-posts {
-  margin-top: 40px;
+.home-divider {
+  opacity: 0.05;
+  margin-top: 160px;
+  margin-bottom: 160px;
 }
 
 @media (max-width: 992px) {
@@ -82,8 +85,9 @@ export default {
     height: 20vh;
   }
 
-  .latest-posts {
-    margin-top: 0;
+  .home-divider {
+    border: 1px solid #1a1a1a;
+    margin: 24px;
   }
 }
 </style>
