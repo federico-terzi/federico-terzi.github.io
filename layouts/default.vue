@@ -5,6 +5,7 @@
     <div class="main-layout-content">
       <Nuxt />
     </div>
+    <TheFooter />
   </div>
 </template>
 
