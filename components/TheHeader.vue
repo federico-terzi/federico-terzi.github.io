@@ -28,7 +28,7 @@
         <MenuIcon class="menu-icon" />
       </div>
       <transition name="fade">
-        <div class="mobile-menu" v-if="menuOpen">
+        <div class="mobile-menu" v-if="menuOpen" @click="handleClickOutside">
           <div class="mobile-menu-links">
             <template v-for="(link, index) in links">
               <a
