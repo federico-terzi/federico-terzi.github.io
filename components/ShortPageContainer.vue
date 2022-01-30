@@ -1,6 +1,6 @@
 <template>
   <div class="short-page-container">
-    <page-header :title="title" class="short-page-title" />
+    <page-header :title="title" class="short-page-title" v-if="title" />
     <slot></slot>
   </div>
 </template>
