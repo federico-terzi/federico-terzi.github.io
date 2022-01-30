@@ -24,6 +24,10 @@
       }
       const handleScroll = () => {
         document.documentElement.dataset.scroll = window.scrollY
+        document.documentElement.dataset['scrolledToBottom'] =
+          window.innerHeight + window.scrollY >= document.body.offsetHeight
+            ? 'true'
+            : 'false'
       }
       document.addEventListener('scroll', debounce(handleScroll), {
         passive: true,

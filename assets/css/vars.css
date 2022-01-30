@@ -4,6 +4,7 @@ html {
   --accent-secondary: #2e4364;
   --accent-tertiary: #ecdbba;
   --background-primary: #ffffff;
+  --background-elevated: #f1f1f1;
   --background-semitransparent: rgba(255, 255, 255, 0.7);
   --details: rgba(26, 26, 26, 0.1);
 }

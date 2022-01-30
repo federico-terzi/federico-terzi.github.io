@@ -6,6 +6,7 @@
       <Nuxt />
     </div>
     <TheFooter />
+    <SocialsBar />
   </div>
 </template>
 
