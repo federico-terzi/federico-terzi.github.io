@@ -1,21 +1,25 @@
 <template>
   <div>
-    <h1>Blog Posts</h1>
-    <ul>
-      <li v-for="article of articles" :key="article.slug">
+    <short-page-container title="Blog">
+      <template v-for="(article, index) of articles">
         <NuxtLink
+          :key="article.slug"
           :to="{ name: 'blog-slug', params: { slug: article.cleanedSlug } }"
+          class="post-link"
         >
-          <img :src="article.img" />
-          <div>
-            <h2>{{ article.title }}</h2>
-            <p>{{ formatDate(article.date) }}</p>
-            <p>by {{ article.author }}</p>
-            <p>{{ article.description }}</p>
-          </div>
+          <post-item
+            :title="article.title"
+            :date="article.date"
+            :snippet="article.description"
+          ></post-item>
         </NuxtLink>
-      </li>
-    </ul>
+        <div
+          class="divider"
+          :key="article.slug"
+          v-if="index !== articles.length - 1"
+        ></div>
+      </template>
+    </short-page-container>
   </div>
 </template>
 
@@ -26,10 +30,7 @@ import { extractCleanSlug } from '../../utils/contentUtils'
 export default {
   name: 'BlogPage',
   async asyncData({ $content, params }) {
-    const articles = await $content('articles')
-      .only(['title', 'author', 'date', 'slug'])
-      .sortBy('date', 'desc')
-      .fetch()
+    const articles = await $content('articles').sortBy('date', 'desc').fetch()
 
     articles.forEach((article) => {
       const cleanedSlug = extractCleanSlug(article.slug)
@@ -45,3 +46,19 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.divider {
+  opacity: 0.1;
+  border: 1px solid #1a1a1a;
+
+  margin-top: 18px;
+  margin-bottom: 28px;
+}
+
+.post-link {
+  text-decoration: none;
+  color: var(--content-primary);
+  flex: 1;
+}
+</style>
