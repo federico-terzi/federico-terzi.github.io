@@ -45,7 +45,8 @@ export default {
 }
 
 .snippet {
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: 'PT Serif';
 }
 </style>

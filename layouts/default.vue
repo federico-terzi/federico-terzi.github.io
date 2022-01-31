@@ -41,6 +41,8 @@ body {
 
 .main-layout-content {
   padding-top: 95px;
+
+  min-height: 100vh;
 }
 
 @media (max-width: 992px) {
