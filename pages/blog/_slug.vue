@@ -14,6 +14,7 @@
 <script>
 import '~/assets/css/postcontent.css'
 import { formatDate } from '../../utils/dateUtils'
+import { generateTitle } from '~/utils/titleUtils'
 
 export default {
   async asyncData({ $content, params }) {
@@ -26,6 +27,11 @@ export default {
   },
   methods: {
     formatDate,
+  },
+  head() {
+    return {
+      title: generateTitle(this.article.title),
+    }
   },
 }
 </script>

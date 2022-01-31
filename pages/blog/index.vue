@@ -25,6 +25,7 @@
 
 <script>
 import { formatDate } from '../../utils/dateUtils'
+import { generateTitle } from '../../utils/titleUtils'
 import { extractCleanSlug } from '../../utils/contentUtils'
 
 export default {
@@ -43,6 +44,11 @@ export default {
   },
   methods: {
     formatDate,
+  },
+  head() {
+    return {
+      title: generateTitle('Blog'),
+    }
   },
 }
 </script>
