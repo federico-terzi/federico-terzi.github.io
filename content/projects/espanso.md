@@ -1,11 +1,12 @@
 ---
-name: espanso
+name: Espanso
 priority: 220
-image: /assets/images/espanso.gif
+image: /projects/espanso.png
+keywords: ["Rust", "C++", "Objective-C"]
 github: https://github.com/federico-terzi/espanso
 website: https://espanso.org
 ---
-*espanso* is a Cross-platform, System-wide **Text Expander** written in **Rust**.
+*Espanso* is a Cross-platform, System-wide **Text Expander** written in **Rust**.
 
 It detects when you type a specific **keyword** and replaces it with *something else*, while you're typing.
 

@@ -1,9 +1,10 @@
 ---
 name: O(sarracino)
 priority: 85
-image: /assets/images/osarracino.png
+image: /projects/osarracino.png
+keywords: ["C++", "Optimizations", "AI"]
 github: https://github.com/federico-terzi/osarracino/
-playonline: https://federicoterzi.com/webTablut/
+play: https://federicoterzi.com/webTablut/
 ---
 *O(sarracino)* is a Tablut Engine written in **C++** with a strong focus on performance. 
 It was written by me and Massimo Schembri for the 2019 [yearly challenge](http://ai.unibo.it/games/boardgamecompetition/1819) 

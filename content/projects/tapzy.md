@@ -1,7 +1,8 @@
 ---
 name: Tapzy
 priority: 70
-image: /assets/images/tapzy.jpg
+image: /projects/tapzy.jpg
+keywords: ["Lua", "Multi-player", "Game"]
 youtube: https://www.youtube.com/watch?v=mEL_VIBAFrU
 ---
 *Tapzy* is an online, turn based puzzle game, written using the Corona SDK framework ( **Lua** ) for the client and **PHP/MySQL** for the backend.

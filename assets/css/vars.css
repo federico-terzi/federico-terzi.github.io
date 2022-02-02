@@ -1,5 +1,6 @@
 html {
   --content-primary: #1a1a1a;
+  --content-primary-inverted: #ffffff;
   --accent-primary: #c84c32;
   --accent-secondary: #2e4364;
   --accent-tertiary: #ecdbba;

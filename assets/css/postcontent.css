@@ -1,19 +1,19 @@
-.nuxt-content p {
+.post-content .nuxt-content p {
   font-family: 'PT Serif';
   font-size: 18px;
   line-height: 28px;
 }
 
-.nuxt-content h2 {
+.post-content .nuxt-content h2 {
   margin-top: 40px;
 }
-.nuxt-content a {
+.post-content .nuxt-content a {
   color: var(--accent-primary);
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 }
 
-.nuxt-content-highlight pre {
+.post-content .nuxt-content-highlight pre {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 0.15));

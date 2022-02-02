@@ -1,7 +1,8 @@
 ---
 name: Memlight
 priority: 90
-image: /assets/images/memlight1.jpg
+image: /projects/memlight1.jpg
+keywords: ["PHP", "Symfony", "MySQL"]
 website: http://memlight.altervista.org/
 github: https://github.com/federico-terzi/memLight
 ---

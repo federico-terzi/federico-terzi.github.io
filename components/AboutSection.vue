@@ -16,7 +16,7 @@
         them are used by tens of thousands of daily active users.
         <a href="https://espanso.org" target="_blank" class="red">Espanso</a> is
         the most popular one, and you can find the others
-        <NuxtLink to="/portfolio" class="blue">here</NuxtLink>.
+        <NuxtLink to="/projects" class="blue">here</NuxtLink>.
       </p>
       <p>
         If you like technical topics, you might also enjoy my

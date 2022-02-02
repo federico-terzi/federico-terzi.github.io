@@ -1,7 +1,8 @@
 ---
 name: Sublime Music Manager
 priority: 99
-image: /assets/images/sublime.jpg
+image: /projects/sublime.jpg
+keywords: ["Android", "Java", "Kotlin"]
 gplay: https://play.google.com/store/apps/details?id=com.freddyt_studio.sublimemusicmanager
 ---
 *Sublime Music Manager* is an **Android app** that makes it easy to manage your music collection. It was made using **Java**, **Javascript (ES6)** and **React + Redux**.

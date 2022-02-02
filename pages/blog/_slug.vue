@@ -5,7 +5,9 @@
       <p class="post-details">
         {{ formatDate(article.date) }} - by {{ article.author }}
       </p>
-      <nuxt-content :document="article" />
+      <div class="post-content">
+        <nuxt-content :document="article" />
+      </div>
       <post-footer class="post-footer" />
     </short-page-container>
   </article>

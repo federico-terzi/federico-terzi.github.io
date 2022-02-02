@@ -1,7 +1,8 @@
 ---
 name: Gesture Keyboard
 priority: 200
-image: /assets/images/gesturekeyboard.jpg
+image: /projects/gesturekeyboard.jpg
+keywords: ["Python", "Arduino", "Machine-learning", "Scikit-learn"]
 youtube: https://www.youtube.com/watch?v=OjTNS2ZKqRc
 github: https://github.com/federico-terzi/gesture-keyboard
 ---
