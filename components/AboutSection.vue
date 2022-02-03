@@ -31,9 +31,21 @@
         channel.
       </p>
       <p>
-        I really enjoy <span class="blue">books</span>. I’m currently reading X,
-        I’ve previously read Y. You can also check out my
-        <NuxtLink to="/books" class="blue">book recommendations</NuxtLink>.
+        I really enjoy <span class="blue">books</span>. I’m currently reading
+        <a
+          :href="currentBook().link"
+          target="_blank"
+          class="blue no-underline"
+          >{{ currentBook().name }}</a
+        >, and I’ve previously read
+
+        <a
+          :href="previousBook().link"
+          target="_blank"
+          class="blue no-underline"
+          >{{ previousBook().name }}</a
+        >. You can also check out my
+        <NuxtLink to="/books" class="red">book recommendations</NuxtLink>.
       </p>
       <p>
         I’m currently based in the lovely city of
@@ -45,9 +57,19 @@
 
 <script>
 import HomeSection from './HomeSection.vue'
+import books from '~/books'
+
 export default {
   name: 'AboutSection',
   components: { HomeSection },
+  methods: {
+    currentBook() {
+      return books[books.length - 1]
+    },
+    previousBook() {
+      return books[books.length - 2]
+    },
+  },
 }
 </script>
 
@@ -69,6 +91,10 @@ export default {
 .blue {
   font-weight: bold;
   color: var(--accent-secondary);
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 a {
