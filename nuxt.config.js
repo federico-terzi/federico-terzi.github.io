@@ -1,3 +1,5 @@
+import { extractCleanSlug } from './utils/contentUtils'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -63,6 +65,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/feed',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -70,4 +73,47 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  feed() {
+    const baseUrlArticles = 'https://federicoterzi.com/blog'
+    const baseLinkFeedArticles = '/feed/blog'
+    const feedFormats = {
+      rss: { type: 'rss2', file: 'rss.xml' },
+      json: { type: 'json1', file: 'feed.json' },
+    }
+    const { $content } = require('@nuxt/content')
+
+    const createFeedArticles = async function (feed) {
+      feed.options = {
+        title: 'Federico Terzi',
+        description: 'A Software Engineering Journey',
+        link: baseUrlArticles,
+      }
+      const articles = await $content('articles').fetch()
+
+      articles.forEach((article) => {
+        const cleanedSlug = extractCleanSlug(article.slug)
+        article.cleanedSlug = cleanedSlug
+      })
+
+      articles.forEach((article) => {
+        const url = `${baseUrlArticles}/${article.cleanedSlug}`
+
+        feed.addItem({
+          title: article.title,
+          id: url,
+          link: url,
+          date: new Date(article.date),
+          description: article.description,
+          content: article.description,
+        })
+      })
+    }
+
+    return Object.values(feedFormats).map(({ file, type }) => ({
+      path: `${baseLinkFeedArticles}/${file}`,
+      type: type,
+      create: createFeedArticles,
+    }))
+  },
 }
