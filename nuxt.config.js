@@ -77,10 +77,6 @@ export default {
   feed() {
     const baseUrlArticles = 'https://federicoterzi.com/blog'
     const baseLinkFeedArticles = '/feed/blog'
-    const feedFormats = {
-      rss: { type: 'rss2', file: 'rss.xml' },
-      json: { type: 'json1', file: 'feed.json' },
-    }
     const { $content } = require('@nuxt/content')
 
     const createFeedArticles = async function (feed) {
@@ -110,10 +106,27 @@ export default {
       })
     }
 
-    return Object.values(feedFormats).map(({ file, type }) => ({
-      path: `${baseLinkFeedArticles}/${file}`,
-      type: type,
-      create: createFeedArticles,
-    }))
+    return [
+      {
+        path: `/feed/rss.xml`,
+        type: 'rss2',
+        create: createFeedArticles,
+      },
+      {
+        path: `/feed.xml`,
+        type: 'rss2',
+        create: createFeedArticles,
+      },
+      {
+        path: `/feed.json`,
+        type: 'json1',
+        create: createFeedArticles,
+      },
+      {
+        path: `/feed`,
+        type: 'rss2',
+        create: createFeedArticles,
+      },
+    ]
   },
 }
