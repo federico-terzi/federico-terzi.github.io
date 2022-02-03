@@ -66,6 +66,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/feed',
+    '@nuxtjs/sitemap',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -128,5 +129,29 @@ export default {
         create: createFeedArticles,
       },
     ]
+  },
+
+  sitemap: {
+    hostname: 'https://federicoterzi.com',
+    gzip: true,
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+
+      let routes = []
+      const articles = await $content('articles').fetch()
+
+      articles.forEach((article) => {
+        const cleanedSlug = extractCleanSlug(article.slug)
+        article.cleanedSlug = cleanedSlug
+      })
+
+      articles.forEach((article) => {
+        const url = `blog/${article.cleanedSlug}/`
+
+        routes.push({ url })
+      })
+
+      return routes
+    },
   },
 }
