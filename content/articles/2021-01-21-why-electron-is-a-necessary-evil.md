@@ -50,7 +50,7 @@ Starting from the same premise, an intermediate approach I personally like is wx
 This is the approach I personally used for [modulo](https://github.com/federico-terzi/modulo), a lightweight graphical extension for [espanso](https://espanso.org/), for which I implemented the business logic in Rust and the UI code in C++.
 
 
-![An example of wxWidgets interfaces in modulo](/assets/images/modulo.png)
+![An example of wxWidgets interfaces in modulo](/posts/modulo.png)
 
 
 Again, I would only consider this approach for simple UIs, as there is a substantial development overhead. Moreover, as the UI gets more complex, the resulting apps start to look increasingly “off” compared to native ones.
@@ -107,7 +107,7 @@ For many months, I considered this approach superior to Electron, with developme
 
 At that time, I wanted to create a GUI for [espanso](https://espanso.org), and that seemed like the perfect opportunity to experiment with these technologies. I forked the original webview project (as I wanted to add a few features) and created a first, very alpha version for Windows:
 
-![An example of Embeddable Webview GUI](/assets/images/espanso-gui.png)
+![An example of Embeddable Webview GUI](/posts/espanso-gui.png)
 
 
 As expected, implementing the business logic was trickier than Electron, having to manually glue together a mix of C++, Rust and JavaScript, but the application was very lightweight, with a consumption of ~2 MB of storage and ~70 MB of RAM. Sounds like a success right? Well, turns out I overlooked a crucial aspect: compatibility.

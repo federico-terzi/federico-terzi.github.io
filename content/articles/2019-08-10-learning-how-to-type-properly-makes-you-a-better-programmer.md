@@ -8,7 +8,7 @@ categories: keyboard productivity
 Like many people, I wasn’t a good typer. I started using computers when I was a kid and, by the time I grew into an adult, I developed my personal typing style, using *only 5 fingers*. 
 <!--more-->
 
-![Fingers](/assets/images/hands.png)
+![Fingers](/posts/hands.png)
 
 Surprisingly, the biggest problem wasn’t the speed ( I achieved about 56 words per minute, an average speed ) but the *wrist movements* I had to make. Other than being very inefficient, that would have probably caused me **pain** in the long run.
 
@@ -30,7 +30,7 @@ But the most important thing I did was to **force myself to write properly from 
 
 I started tracking my progress and after about 2 weeks I was achieving the same speed as my old method. Then, as time went on, my fluency kept improving, as you can tell from this graph:
 
-![Typing Speed Graph](/assets/images/typingspeedgraph.png)
+![Typing Speed Graph](/posts/typingspeedgraph.png)
 
 After 2 months **I was comfortable with touch typing**, my speed greatly improved and I was ready for the next step:
 

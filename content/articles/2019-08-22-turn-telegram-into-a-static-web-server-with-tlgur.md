@@ -35,11 +35,11 @@ Create a "test.html" file with the following content:
 
 And send it to the bot:
 
-![Bot Response](/assets/images/telegrambot.png)
+![Bot Response](/posts/telegrambot.png)
 
 [The result link](https://tlgur.com/d/89eJjoO8) can be visited with any web browser, and works as expected:
 
-![Web Page](/assets/images/telegrambotpage.png)
+![Web Page](/posts/telegrambotpage.png)
 
 ### Conclusion
 

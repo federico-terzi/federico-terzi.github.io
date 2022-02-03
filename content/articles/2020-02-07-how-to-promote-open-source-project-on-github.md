@@ -42,7 +42,7 @@ The easiest way to get some early feedback is to post your GitHub page on [r/coo
 
 Beside Reddit, there are other viable alternatives to promote a project. If you are lucky enough to get featured in the homepage of **Hackernews**, your GitHub page will generally experience a ton of traffic. Personally, I never had any success posting espanso there, getting almost no traction at all. That said, last weekend something pretty interesting happened: someone posted the espanso's GitHub page on HN and, for about a couple of hours, it remained in the front page. The results were astonishing: 200 stars and more than a thousand user visits.
 
-![Star history of the project](/assets/images/stargazers.png)
+![Star history of the project](/posts/stargazers.png)
 
 Another powerful website is YouTube. In particular, getting featured in the right video can drive a significant amount of traffic to your project. The key here is to find YouTubers interested in the problems you are trying to solve, and ask them if they could be interested in covering your project. Most won't even respond, but with some luck you may get good results.
 

@@ -4,6 +4,12 @@
   line-height: 28px;
 }
 
+.post-content .nuxt-content ul {
+  font-family: 'PT Serif';
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .post-content .nuxt-content h2 {
   margin-top: 40px;
 }
@@ -11,6 +17,16 @@
   color: var(--accent-primary);
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
+}
+
+.post-content .nuxt-content img {
+  display: block;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  max-width: 100%;
 }
 
 .post-content .nuxt-content-highlight pre {

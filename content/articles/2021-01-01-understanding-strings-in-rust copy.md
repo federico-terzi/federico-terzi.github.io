@@ -24,7 +24,7 @@ From a memory standpoint, the situation is characterized by 2 memory entities:
 * A memory region in the heap containing the actual string content
 * A string record on the stack containing the memory location of the first element in the heap (and generally, its length)
 
-![Memory model](/assets/images/string1.JPEG)
+![Memory model](/posts/string1.JPEG)
 
 Looking at our example, we can say that `s` does not contain the actual string content, but instead, it is simply a reference to the memory region containing the content. 
 
@@ -42,11 +42,11 @@ In this case, the variable `t` will hold the value `"hello"`, without any surrou
 In most garbage collected languages that operation causes a separate string being created, so you end-up with two memory blocks on the heap:
 
 
-![Memory model](/assets/images/string2.JPEG)
+![Memory model](/posts/string2.JPEG)
 
 This is where Rust magic happens. If we assume that neither `T` nor `S` will be modified (they are immutable), we can optimize the previous operation by simply creating another string record having the start index at the second cell of `S` and having a length of 5 instead of 7.
 
-![Memory model](/assets/images/string3.JPEG)
+![Memory model](/posts/string3.JPEG)
 
 From the user perspective, T will be a string with length 5 and with content "hello",  but no additional allocation will be necessary, greatly improving memory efficiency.
 

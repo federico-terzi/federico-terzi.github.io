@@ -57,7 +57,7 @@ Open your project's GitHub page, navigate to the *Releases* section and then cli
 
 Insert a *tag version*, such as `v0.1.0`, a title and then drag the previously created archive ( in my case `espanso-mac.tar.gz` ) into the upload section. You should have something like this:
 
-![Github Release](/assets/images/githubrelease.png)
+![Github Release](/posts/githubrelease.png)
 
 Now click `Publish release`   to complete the process.
 

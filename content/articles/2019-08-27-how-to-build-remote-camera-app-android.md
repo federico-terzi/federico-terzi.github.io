@@ -24,7 +24,7 @@ The goal at this point was clear, **forking Open Camera** and adding the **remot
 
 The Open Camera repository is hosted on **Sourceforge** but I wanted to fork it on **Github**. Thanks to the [Github Importer](https://github.com/new/import) utility, the process was painless. 
 
-![Forking Open Camera on Github](/assets/images/opencameraimport.png)
+![Forking Open Camera on Github](/posts/opencameraimport.png)
 
 ### Compile the Sources
 
@@ -32,7 +32,7 @@ After cloning the repository, I was ready to open the project with Android Studi
 
 I started the compilation process, but as I already had Open Camera installed on my smartphone, **I got a naming conflict**:
 
-![Naming Conflict Package Android](/assets/images/androidnamingconflict.png)
+![Naming Conflict Package Android](/posts/androidnamingconflict.png)
 
 This happened because both the original and my forked version _shared the same package id_. To fix this problem, all I had to do was to rename the package. All occurrences of `net.sourceforge.opencamera` had been replaced with `com.federicoterzi.opencamerastudio`.
 
@@ -49,11 +49,11 @@ I wanted to manage the camera app remotely, so the next thing to do was to find 
 
 I started digging in the source code. I wanted to find the UI code that triggered the recording and the class `MainUI` caught my attention.
 
-![Open Camera MainUI class](/assets/images/opencameraui.png)
+![Open Camera MainUI class](/posts/opencameraui.png)
 
 Scrolling through the source, I stumbled upon the `onKeyDown` method, apparently used to manage the events from volume buttons and selfie sticks, which in turn called the MainActivity’s takePicture method.
 
-![Open Camera Take Picture](/assets/images/opencameratakepicture.png)
+![Open Camera Take Picture](/posts/opencameratakepicture.png)
 
 After a bit of experimenting, I determined that the `takePicture` method enabled both the start and the stop of a video recording, so I was ready for the next phase.
 
@@ -160,6 +160,6 @@ This was a very basic proof of concept you can use as a starting point when buil
 
 In the next article, we will see how to create the Desktop control panel in Go.
 
-![Open Camera Studio Remote Desktop App](/assets/images/OCSDesktopGui.png)
+![Open Camera Studio Remote Desktop App](/posts/OCSDesktopGui.png)
 
 Stay tuned :)

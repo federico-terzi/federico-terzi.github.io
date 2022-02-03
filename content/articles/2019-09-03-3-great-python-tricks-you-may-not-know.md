@@ -46,7 +46,7 @@ for item in tqdm(range(10000000)):
 
 Now if you execute this code, you will see a nice progress bar appear in your terminal.
 
-![tqdm Progress Bar](/assets/images/tqdmanimated.gif)
+![tqdm Progress Bar](/posts/tqdmanimated.gif)
 
 As you can see, besides the progress, it also shows the speed and the expected remaining time. The great thing is that you can use **tqdm** with any iterable, making it trivial to improve your existing scripts!
 

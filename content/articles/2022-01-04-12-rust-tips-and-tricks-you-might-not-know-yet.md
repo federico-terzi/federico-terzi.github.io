@@ -134,7 +134,7 @@ fn main() {
 
 The [Rust analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) VSCode extension by [matklad](https://matklad.github.io/) is significantly better than the “official” Rust one. Unfortunately, it’s still showing as a second result on the extensions marketplace, misguiding a lot of beginners.
 
-![Rust Analyzer extension](/assets/images/rustanalyzer.png)
+![Rust Analyzer extension](/posts/rustanalyzer.png)
 
 
 ## Use impl Trait when working with Closures
@@ -182,7 +182,7 @@ fn main() {
 
 If you’re using VSCode + Rust Analyzer, I highly suggest going into the settings > Rust Analyzer > Check On Save: Command and setting "clippy" as the new default instead of "check". Same UX, better warnings.
 
-![Enable Clippy on Save](/assets/images/clippyonsave.png)
+![Enable Clippy on Save](/posts/clippyonsave.png)
 
 
 ## Use “thiserror” and “anyhow” for idiomatic error handling
