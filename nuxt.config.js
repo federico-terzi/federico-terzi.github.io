@@ -17,12 +17,47 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'title',
+        name: 'title',
+        content: 'Federico Terzi - A Software Engineering Journey',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          "A Developer who loves building great products. Learn more about my journey as a software engineer, you'll find technical articles, side-projects and much more!",
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          "A Developer who loves building great products. Learn more about my journey as a software engineer, you'll find technical articles, side-projects and much more!",
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'stylesheet', href: '/colors.css' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon-32x32.png',
+        sizes: '32x32',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon-16x16.png',
+        sizes: '16x16',
+      },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      {
+        rel: 'apple-touch-icon',
+        href: '/apple-touch-icon.png',
+        sizes: '180x180',
+      },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
     ],
   },
 
