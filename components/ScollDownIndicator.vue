@@ -50,7 +50,7 @@ export default {
   line-height: 17px;
   font-weight: bold;
   text-align: center;
-  color: var(--accent-secondary);
+  color: var(--accent-menu);
 
   margin-bottom: 12px;
 

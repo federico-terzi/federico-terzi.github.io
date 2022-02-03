@@ -157,13 +157,17 @@ html:not([data-scroll='0']) .header {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
+html[data-theme='dark'] .tagline {
+  opacity: 0.9;
+}
+
 .menu-link {
   position: relative;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  color: var(--accent-secondary);
+  color: var(--accent-menu);
   margin-left: 48px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -173,7 +177,7 @@ html:not([data-scroll='0']) .header {
   color: var(--accent-primary);
 }
 
-.menu-link::before {
+.menu-link::after {
   content: '';
   position: absolute;
   display: block;
@@ -187,7 +191,7 @@ html:not([data-scroll='0']) .header {
   transition: all 0.3s ease;
 }
 
-.menu-link:hover::before {
+.menu-link:hover::after {
   transform: scaleX(1);
   opacity: 1;
   background-color: var(--accent-primary);

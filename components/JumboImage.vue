@@ -1,12 +1,22 @@
 <template>
   <div class="container">
-    <div class="jumbo-image"></div>
+    <div class="jumbo-image" @click="toggleTheme"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'JumboImage',
+  methods: {
+    toggleTheme() {
+      const currentTheme = window.document.documentElement.dataset.theme
+      if (currentTheme === 'light') {
+        window.switchTheme('dark')
+      } else {
+        window.switchTheme('light')
+      }
+    },
+  },
 }
 </script>
 
@@ -29,6 +39,12 @@ export default {
 
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 2s;
+
+  cursor: pointer;
+}
+
+html[data-theme='dark'] .jumbo-image {
+  background-image: url('~assets/img/jumbo-image-dark.png');
 }
 
 @media (max-width: 992px) {

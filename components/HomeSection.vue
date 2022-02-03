@@ -55,7 +55,7 @@ export default {
   font-size: 28px;
   line-height: 34px;
 
-  color: var(--accent-secondary);
+  color: var(--accent-menu);
   opacity: 0.01;
 }
 

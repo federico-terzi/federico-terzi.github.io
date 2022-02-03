@@ -57,7 +57,7 @@ export default {
   text-align: center;
   width: 100%;
   font-weight: bold;
-  color: var(--accent-secondary);
+  color: var(--accent-menu);
   text-underline-offset: 2px;
   text-decoration-thickness: 2px;
 

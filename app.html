@@ -25,7 +25,7 @@
       const handleScroll = () => {
         document.documentElement.dataset.scroll = window.scrollY
         document.documentElement.dataset['scrolledToBottom'] =
-          window.innerHeight + window.scrollY >= document.body.offsetHeight
+          window.innerHeight + window.scrollY >= document.body?.offsetHeight
             ? 'true'
             : 'false'
       }
@@ -33,6 +33,27 @@
         passive: true,
       })
       handleScroll()
+
+      function switchTheme(theme) {
+        if (theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark')
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light')
+        }
+      }
+
+      const prefersDarkScheme = window.matchMedia(
+        '(prefers-color-scheme: dark)'
+      )
+      if (prefersDarkScheme.matches) {
+        switchTheme('dark')
+      }
+
+      window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .addListener((e) =>
+          e.matches ? switchTheme('dark') : switchTheme('light')
+        )
     </script>
   </head>
   <body {{ BODY_ATTRS }}>

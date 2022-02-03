@@ -55,8 +55,7 @@ export default {
 
 <style scoped>
 .divider {
-  opacity: 0.1;
-  border: 1px solid #1a1a1a;
+  border: 1px solid var(--details);
 
   margin-top: 18px;
   margin-bottom: 28px;

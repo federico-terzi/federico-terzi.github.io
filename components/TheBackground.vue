@@ -26,6 +26,8 @@ export default {
   z-index: -10;
 
   background-color: var(--background-primary);
+
+  transition: all 0.5s ease;
 }
 
 .blurred {
@@ -63,6 +65,10 @@ export default {
 
   background-color: var(--accent-tertiary);
   opacity: 0.4;
+}
+
+html[data-theme='dark'] .yellow {
+  opacity: 0.2;
 }
 
 @media (max-width: 992px) {

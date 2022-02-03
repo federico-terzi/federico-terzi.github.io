@@ -104,4 +104,8 @@ a {
   color: var(--accent-secondary);
   margin-left: 10px;
 }
+
+.socials path {
+  stroke: var(--accent-secondary);
+}
 </style>
