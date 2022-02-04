@@ -165,7 +165,7 @@ export default {
         create: createFeedArticles,
       },
       {
-        path: `/feed`,
+        path: `/feed/index.html`,
         type: 'rss2',
         create: createFeedArticles,
       },

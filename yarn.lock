@@ -1430,10 +1430,9 @@
     consola "^2.15.0"
     eslint-webpack-plugin "^2.4.1"
 
-"@nuxtjs/feed@^2.0.0":
+"@nuxtjs/feed@github:nuxt-community/feed-module#7c8595d16bdf78bf3f5104a98252e4bd75dc4067":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/feed/-/feed-2.0.0.tgz#26b110360b730edace55e228dceade27f80b92b5"
-  integrity sha512-HUmvn/+Spd/8sthGJUPnny/Q5nMcvMBotlPxU0UD0f4UoMhSpBqLDFTSTruYDa5VeXKtS3qCkZLhnyqR5aiXTA==
+  resolved "https://codeload.github.com/nuxt-community/feed-module/tar.gz/7c8595d16bdf78bf3f5104a98252e4bd75dc4067"
   dependencies:
     async-cache "^1.1.0"
     consola "^2.12.1"
