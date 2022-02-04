@@ -55,6 +55,22 @@ export default {
           content: `https://federicoterzi.com/social/${this.article.slug}.png`,
         },
         {
+          name: 'twitter:card',
+          content: 'summary',
+        },
+        {
+          name: 'twitter:site',
+          content: '@terzi_federico',
+        },
+        {
+          name: 'twitter:title',
+          content: this.article.title,
+        },
+        {
+          name: 'twitter:description',
+          content: this.article.description,
+        },
+        {
           name: 'twitter:image',
           content: `https://federicoterzi.com/social/${this.article.slug}.png`,
         },
