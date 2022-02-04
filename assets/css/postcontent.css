@@ -4,6 +4,19 @@
   line-height: 28px;
 }
 
+.post-content .nuxt-content blockquote p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.post-content .nuxt-content blockquote {
+  margin-left: 0;
+  padding-left: 30px;
+
+  border-bottom: 1px solid var(--details);
+  border-top: 1px solid var(--details);
+}
+
 .post-content .nuxt-content ul {
   font-family: 'PT Serif';
   font-size: 18px;
@@ -34,6 +47,10 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+
+.post-content .nuxt-content-highlight {
+  font-size: 16px;
 }
 
 /* Syntax highlight, Light theme */
