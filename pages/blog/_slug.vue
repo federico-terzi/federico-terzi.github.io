@@ -54,6 +54,10 @@ export default {
           property: 'og:image',
           content: `https://federicoterzi.com/social/${this.article.slug}.png`,
         },
+        {
+          name: 'twitter:image',
+          content: `https://federicoterzi.com/social/${this.article.slug}.png`,
+        },
       ],
     }
   },
