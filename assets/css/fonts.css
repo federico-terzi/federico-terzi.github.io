@@ -3,6 +3,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('~assets/fonts/inter-v7-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('~assets/fonts/inter-v7-latin-regular.eot?#iefix')
@@ -21,6 +22,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('~assets/fonts/inter-v7-latin-700.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('~assets/fonts/inter-v7-latin-700.eot?#iefix')
@@ -39,6 +41,7 @@
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/pt-serif-v16-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('../fonts/pt-serif-v16-latin-regular.eot?#iefix')
