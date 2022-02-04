@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Federico Terzi</title>
+        <link>https://federicoterzi.com/blog</link>
+        <description>A Software Engineering Journey</description>
+        <lastBuildDate>Fri, 04 Feb 2022 20:11:21 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Learning How to Type Properly Makes You a Better Programmer]]></title>
+            <link>https://federicoterzi.com/blog/learning-how-to-type-properly-makes-you-a-better-programmer</link>
+            <guid>https://federicoterzi.com/blog/learning-how-to-type-properly-makes-you-a-better-programmer</guid>
+            <pubDate>Tue, 20 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Like many people, I wasn’t a good typer. I started using computers when I was a kid and, by the time I grew into an adult, I developed my personal typing style, using only 5 fingers.]]></description>
+            <content:encoded><![CDATA[Like many people, I wasn’t a good typer. I started using computers when I was a kid and, by the time I grew into an adult, I developed my personal typing style, using only 5 fingers.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Turn Telegram into a Static Web Server with TLGUR]]></title>
+            <link>https://federicoterzi.com/blog/turn-telegram-into-a-static-web-server-with-tlgur</link>
+            <guid>https://federicoterzi.com/blog/turn-telegram-into-a-static-web-server-with-tlgur</guid>
+            <pubDate>Thu, 22 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Telegram is one of the most popular messaging apps and probably the most loved by developers. The reasons are many, but I think that it mostly boils down to their openness, which led many programmers to create unique and interesting projects around it. Today I want to share one of those: TLGUR.]]></description>
+            <content:encoded><![CDATA[Telegram is one of the most popular messaging apps and probably the most loved by developers. The reasons are many, but I think that it mostly boils down to their openness, which led many programmers to create unique and interesting projects around it. Today I want to share one of those: TLGUR.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to Force Github Pages to Rebuild Jekyll Website]]></title>
+            <link>https://federicoterzi.com/blog/how-to-force-github-pages-to-rebuild-jekyll-website</link>
+            <guid>https://federicoterzi.com/blog/how-to-force-github-pages-to-rebuild-jekyll-website</guid>
+            <pubDate>Fri, 23 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[A month ago I decided to rebuild my website using Jekyll for a couple of reasons: it’s the official tool used by Github Pages and it supports blogging. Considering also that Github Pages is free, this is pretty much one of the best ways to build a personal website nowadays and I'm very happy with the result.]]></description>
+            <content:encoded><![CDATA[A month ago I decided to rebuild my website using Jekyll for a couple of reasons: it’s the official tool used by Github Pages and it supports blogging. Considering also that Github Pages is free, this is pretty much one of the best ways to build a personal website nowadays and I'm very happy with the result.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Building a Remote Camera App for Android]]></title>
+            <link>https://federicoterzi.com/blog/how-to-build-remote-camera-app-android</link>
+            <guid>https://federicoterzi.com/blog/how-to-build-remote-camera-app-android</guid>
+            <pubDate>Tue, 27 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[I love automating things, especially the boring ones. Having a Youtube channel, I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.]]></description>
+            <content:encoded><![CDATA[I love automating things, especially the boring ones. Having a Youtube channel, I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[3 Great Python Tricks You May Not Know]]></title>
+            <link>https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know</link>
+            <guid>https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know</guid>
+            <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:]]></description>
+            <content:encoded><![CDATA[Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to Publish your Rust project on Homebrew]]></title>
+            <link>https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew</link>
+            <guid>https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew</guid>
+            <pubDate>Sun, 06 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust.]]></description>
+            <content:encoded><![CDATA[Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to Promote Your Open Source Project]]></title>
+            <link>https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github</link>
+            <guid>https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github</guid>
+            <pubDate>Fri, 07 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
+Turns out that promotion, probably the least favourable thing for a programmer, is important as well.]]></description>
+            <content:encoded><![CDATA[As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
+Turns out that promotion, probably the least favourable thing for a programmer, is important as well.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Regex101 - The Ultimate Tool for Regular Expressions]]></title>
+            <link>https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions</link>
+            <guid>https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions</guid>
+            <pubDate>Fri, 29 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.
+You may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.]]></description>
+            <content:encoded><![CDATA[If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.
+You may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Understanding Strings in Rust]]></title>
+            <link>https://federicoterzi.com/blog/understanding-strings-in-rust</link>
+            <guid>https://federicoterzi.com/blog/understanding-strings-in-rust</guid>
+            <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.]]></description>
+            <content:encoded><![CDATA[When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Why Electron is a Necessary Evil]]></title>
+            <link>https://federicoterzi.com/blog/why-electron-is-a-necessary-evil</link>
+            <guid>https://federicoterzi.com/blog/why-electron-is-a-necessary-evil</guid>
+            <pubDate>Thu, 21 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).]]></description>
+            <content:encoded><![CDATA[Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Rust vs C++, which is better and why?]]></title>
+            <link>https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why</link>
+            <guid>https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why</guid>
+            <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.]]></description>
+            <content:encoded><![CDATA[This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[12 Rust Tips and Tricks you might not know yet]]></title>
+            <link>https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet</link>
+            <guid>https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet</guid>
+            <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.]]></description>
+            <content:encoded><![CDATA[Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.]]></content:encoded>
+        </item>
+    </channel>
+</rss>

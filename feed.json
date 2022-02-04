@@ -1,0 +1,104 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Federico Terzi",
+    "home_page_url": "https://federicoterzi.com/blog",
+    "description": "A Software Engineering Journey",
+    "items": [
+        {
+            "id": "https://federicoterzi.com/blog/learning-how-to-type-properly-makes-you-a-better-programmer",
+            "content_html": "Like many people, I wasn’t a good typer. I started using computers when I was a kid and, by the time I grew into an adult, I developed my personal typing style, using only 5 fingers.",
+            "url": "https://federicoterzi.com/blog/learning-how-to-type-properly-makes-you-a-better-programmer",
+            "title": "Learning How to Type Properly Makes You a Better Programmer",
+            "summary": "Like many people, I wasn’t a good typer. I started using computers when I was a kid and, by the time I grew into an adult, I developed my personal typing style, using only 5 fingers.",
+            "date_modified": "2019-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/turn-telegram-into-a-static-web-server-with-tlgur",
+            "content_html": "Telegram is one of the most popular messaging apps and probably the most loved by developers. The reasons are many, but I think that it mostly boils down to their openness, which led many programmers to create unique and interesting projects around it. Today I want to share one of those: TLGUR.",
+            "url": "https://federicoterzi.com/blog/turn-telegram-into-a-static-web-server-with-tlgur",
+            "title": "Turn Telegram into a Static Web Server with TLGUR",
+            "summary": "Telegram is one of the most popular messaging apps and probably the most loved by developers. The reasons are many, but I think that it mostly boils down to their openness, which led many programmers to create unique and interesting projects around it. Today I want to share one of those: TLGUR.",
+            "date_modified": "2019-08-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/how-to-force-github-pages-to-rebuild-jekyll-website",
+            "content_html": "A month ago I decided to rebuild my website using Jekyll for a couple of reasons: it’s the official tool used by Github Pages and it supports blogging. Considering also that Github Pages is free, this is pretty much one of the best ways to build a personal website nowadays and I'm very happy with the result.",
+            "url": "https://federicoterzi.com/blog/how-to-force-github-pages-to-rebuild-jekyll-website",
+            "title": "How to Force Github Pages to Rebuild Jekyll Website",
+            "summary": "A month ago I decided to rebuild my website using Jekyll for a couple of reasons: it’s the official tool used by Github Pages and it supports blogging. Considering also that Github Pages is free, this is pretty much one of the best ways to build a personal website nowadays and I'm very happy with the result.",
+            "date_modified": "2019-08-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/how-to-build-remote-camera-app-android",
+            "content_html": "I love automating things, especially the boring ones. Having a Youtube channel, I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.",
+            "url": "https://federicoterzi.com/blog/how-to-build-remote-camera-app-android",
+            "title": "Building a Remote Camera App for Android",
+            "summary": "I love automating things, especially the boring ones. Having a Youtube channel, I found that editing videos can be very time-consuming and so I started thinking about ways to improve my workflow.",
+            "date_modified": "2019-08-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know",
+            "content_html": "Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:",
+            "url": "https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know",
+            "title": "3 Great Python Tricks You May Not Know",
+            "summary": "Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:",
+            "date_modified": "2019-09-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew",
+            "content_html": "Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust.",
+            "url": "https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew",
+            "title": "How to Publish your Rust project on Homebrew",
+            "summary": "Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust.",
+            "date_modified": "2019-10-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
+            "content_html": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
+            "url": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
+            "title": "How to Promote Your Open Source Project",
+            "summary": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
+            "date_modified": "2020-02-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
+            "content_html": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
+            "url": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
+            "title": "Regex101 - The Ultimate Tool for Regular Expressions",
+            "summary": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
+            "date_modified": "2020-05-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/understanding-strings-in-rust",
+            "content_html": "When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.",
+            "url": "https://federicoterzi.com/blog/understanding-strings-in-rust",
+            "title": "Understanding Strings in Rust",
+            "summary": "When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.",
+            "date_modified": "2021-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
+            "content_html": "Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).",
+            "url": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
+            "title": "Why Electron is a Necessary Evil",
+            "summary": "Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).",
+            "date_modified": "2021-01-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
+            "content_html": "This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.",
+            "url": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
+            "title": "Rust vs C++, which is better and why?",
+            "summary": "This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.",
+            "date_modified": "2021-05-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet",
+            "content_html": "Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.",
+            "url": "https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet",
+            "title": "12 Rust Tips and Tricks you might not know yet",
+            "summary": "Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.",
+            "date_modified": "2022-01-04T00:00:00.000Z"
+        }
+    ]
+}
