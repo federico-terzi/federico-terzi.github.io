@@ -33,6 +33,28 @@ export default {
   head() {
     return {
       title: generateTitle(this.article.title),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.article.description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.article.title,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.article.description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: `https://federicoterzi.com/social/${this.article.slug}.png`,
+        },
+      ],
     }
   },
 }

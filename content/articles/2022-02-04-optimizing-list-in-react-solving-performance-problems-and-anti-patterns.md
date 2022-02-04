@@ -4,6 +4,8 @@ title:  "Optimizing Lists in React - Solving Performance Problems and Anti-patte
 author: Federico Terzi
 date:   2022-02-04
 categories: react list performance optimizations patterns anti-patterns
+social_title: "Optimizing Lists in React"
+social_subtitle: "Solving Performance Problems and Anti-patterns"
 ---
 
 React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.
