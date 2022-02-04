@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Fri, 04 Feb 2022 20:26:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Feb 2022 20:51:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -106,6 +106,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.]]></description>
             <content:encoded><![CDATA[Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Optimizing Lists in React - Solving Performance Problems and Anti-patterns]]></title>
+            <link>https://federicoterzi.com/blog/optimizing-list-in-react-solving-performance-problems-and-anti-patterns</link>
+            <guid>https://federicoterzi.com/blog/optimizing-list-in-react-solving-performance-problems-and-anti-patterns</guid>
+            <pubDate>Fri, 04 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.]]></description>
+            <content:encoded><![CDATA[React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.]]></content:encoded>
         </item>
     </channel>
 </rss>

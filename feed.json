@@ -99,6 +99,14 @@
             "title": "12 Rust Tips and Tricks you might not know yet",
             "summary": "Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.",
             "date_modified": "2022-01-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/optimizing-list-in-react-solving-performance-problems-and-anti-patterns",
+            "content_html": "React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.",
+            "url": "https://federicoterzi.com/blog/optimizing-list-in-react-solving-performance-problems-and-anti-patterns",
+            "title": "Optimizing Lists in React - Solving Performance Problems and Anti-patterns",
+            "summary": "React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.",
+            "date_modified": "2022-02-04T00:00:00.000Z"
         }
     ]
 }
