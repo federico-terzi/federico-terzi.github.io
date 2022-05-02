@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Sat, 26 Feb 2022 19:22:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 May 2022 20:44:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -114,6 +114,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Fri, 04 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.]]></description>
             <content:encoded><![CDATA[React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The single, most important trick to build robust applications]]></title>
+            <link>https://federicoterzi.com/blog/building-robust-applications-by-making-invalid-states-unrepresentable</link>
+            <guid>https://federicoterzi.com/blog/building-robust-applications-by-making-invalid-states-unrepresentable</guid>
+            <pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.]]></description>
+            <content:encoded><![CDATA[In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.]]></content:encoded>
         </item>
     </channel>
 </rss>

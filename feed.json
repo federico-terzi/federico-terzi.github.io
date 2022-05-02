@@ -107,6 +107,14 @@
             "title": "Optimizing Lists in React - Solving Performance Problems and Anti-patterns",
             "summary": "React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.",
             "date_modified": "2022-02-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/building-robust-applications-by-making-invalid-states-unrepresentable",
+            "content_html": "In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.",
+            "url": "https://federicoterzi.com/blog/building-robust-applications-by-making-invalid-states-unrepresentable",
+            "title": "The single, most important trick to build robust applications",
+            "summary": "In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.",
+            "date_modified": "2022-05-02T00:00:00.000Z"
         }
     ]
 }
