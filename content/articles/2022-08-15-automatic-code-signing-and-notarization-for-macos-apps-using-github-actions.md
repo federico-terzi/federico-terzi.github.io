@@ -14,7 +14,7 @@ After almost 3 years, we finally took the necessary steps to code-sign [Espanso]
 <!--more-->
 # Prerequisites
 
-- Having a paid [Apple Developer Program](https://developer.apple.com/programs/) subscription. This costs about ~$99 per year depending on your country and is necessary to generate the necessary certificates.
+- Having a paid [Apple Developer Program](https://developer.apple.com/programs/) subscription. This costs about ~$99 per year depending on your country and is necessary to generate the required certificates.
 - Having a CI that builds your final App bundle. This bundle can be generated in a lot of different ways, just keep in mind we’ll need the final `bundle.app` inside the CI to perform the signing and notarization. This article won't cover the bundle generation, so please take care of that beforehand if you haven't already.
 
 # Generating the Certificate
