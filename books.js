@@ -90,6 +90,11 @@ export default [
     link: 'https://www.amazon.com/Product-Led-Growth-Build-Product-Itself-ebook/dp/B07P6288ZF',
   },
   {
+    name: 'The Mom Test',
+    author: 'Rob Fitzpatrick',
+    link: 'https://www.amazon.com/dp/B01H4G2J1U',
+  },
+  {
     name: 'The Courage to Be Disliked',
     author: 'Ichiro Kishimi, Fumitake Koga',
     link: 'https://www.amazon.com/Courage-Be-Disliked-Phenomenon-Happiness-ebook/dp/B078MDSV8T',
@@ -98,5 +103,15 @@ export default [
     name: 'Made to Stick',
     author: 'Chip Heath, Dan Heath',
     link: 'https://www.amazon.com/Made-Stick-ideas-others-unstuck-ebook/dp/B0031RS2XG',
+  },
+  {
+    name: 'The Coding Career Handbook',
+    author: 'swyx',
+    link: 'https://www.learninpublic.org/',
+  },
+  {
+    name: 'Site Reliability Engineering',
+    author: 'Jennifer Petoff, Niall Murphy, Betsy Beyer, Chris Jones',
+    link: 'https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X',
   },
 ]
