@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Mon, 02 May 2022 20:44:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Aug 2022 11:38:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -122,6 +122,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.]]></description>
             <content:encoded><![CDATA[In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Automatic Code-signing and Notarization for macOS apps using GitHub Actions]]></title>
+            <link>https://federicoterzi.com/blog/automatic-code-signing-and-notarization-for-macos-apps-using-github-actions</link>
+            <guid>https://federicoterzi.com/blog/automatic-code-signing-and-notarization-for-macos-apps-using-github-actions</guid>
+            <pubDate>Mon, 15 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[After almost 3 years, we finally took the necessary steps to code-sign Espanso. This article covers the step I’ve taken to integrate the code-signing and notarization steps in our automatic CI flow. This process is built with GitHub Actions in mind, but you can easily port it to your CI provider of choice.]]></description>
+            <content:encoded><![CDATA[After almost 3 years, we finally took the necessary steps to code-sign Espanso. This article covers the step I’ve taken to integrate the code-signing and notarization steps in our automatic CI flow. This process is built with GitHub Actions in mind, but you can easily port it to your CI provider of choice.]]></content:encoded>
         </item>
     </channel>
 </rss>

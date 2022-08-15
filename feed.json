@@ -115,6 +115,14 @@
             "title": "The single, most important trick to build robust applications",
             "summary": "In the last decade, many functional programming concepts have been making their way into modern, non-functional languages. Instead of going all-in, developers can choose to gradually adopt some of the paradigms in their applications, enjoying the best of both worlds.",
             "date_modified": "2022-05-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/automatic-code-signing-and-notarization-for-macos-apps-using-github-actions",
+            "content_html": "After almost 3 years, we finally took the necessary steps to code-sign Espanso. This article covers the step I’ve taken to integrate the code-signing and notarization steps in our automatic CI flow. This process is built with GitHub Actions in mind, but you can easily port it to your CI provider of choice.",
+            "url": "https://federicoterzi.com/blog/automatic-code-signing-and-notarization-for-macos-apps-using-github-actions",
+            "title": "Automatic Code-signing and Notarization for macOS apps using GitHub Actions",
+            "summary": "After almost 3 years, we finally took the necessary steps to code-sign Espanso. This article covers the step I’ve taken to integrate the code-signing and notarization steps in our automatic CI flow. This process is built with GitHub Actions in mind, but you can easily port it to your CI provider of choice.",
+            "date_modified": "2022-08-15T00:00:00.000Z"
         }
     ]
 }
