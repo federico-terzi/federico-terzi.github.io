@@ -72,7 +72,7 @@ async function main() {
   const pageString = `---
 ${yamlFrontmatter}
 ---
-TODO: insert <!--more--> at some point!
+<!--more-->
 ${finalMarkdown}
 `
 

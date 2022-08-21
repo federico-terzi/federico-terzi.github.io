@@ -16,7 +16,7 @@ const POSTS_PATH = `${ROOT_PATH}/content/articles`
 const generateImage = async (page, title, subtitle, slug) => {
   const URL = `file:///${path.join(__dirname, '/template.html')}`
   const SCREENSHOT_PATH = `${SOCIAL_PATH}/${slug}.png`
-  await page.goto(URL)
+  await page.goto(URL, { waitUntil: 'networkidle0', })
   // strange syntax, check https://playwright.dev/docs/api/class-page#page-eval-on-selector for more infos
   await page.$eval('.title', (el, title) => (el.textContent = title), title)
   await page.$eval(
@@ -96,13 +96,13 @@ const generateSocialMediaPreview = async () => {
   await browser.close()
 }
 
-/*
- * Entry point for generateSocialMediaPreview() when this file is executed
- */
-;(async () => {
-  try {
-    await generateSocialMediaPreview()
-  } catch (error) {
-    console.log('Error:', error)
-  }
-})()
+  /*
+   * Entry point for generateSocialMediaPreview() when this file is executed
+   */
+  ; (async () => {
+    try {
+      await generateSocialMediaPreview()
+    } catch (error) {
+      console.log('Error:', error)
+    }
+  })()
