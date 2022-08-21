@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Mon, 15 Aug 2022 14:41:55 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Aug 2022 13:20:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -130,6 +130,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Mon, 15 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[After almost 3 years, we finally took the necessary steps to code-sign Espanso. This article covers the step I’ve taken to integrate the code-signing and notarization steps in our automatic CI flow. This process is built with GitHub Actions in mind, but you can easily port it to your CI provider of choice.]]></description>
             <content:encoded><![CDATA[After almost 3 years, we finally took the necessary steps to code-sign Espanso. This article covers the step I’ve taken to integrate the code-signing and notarization steps in our automatic CI flow. This process is built with GitHub Actions in mind, but you can easily port it to your CI provider of choice.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fixing the “Expecting: TRUSTED CERTIFICATE” error with Sectigo certificates]]></title>
+            <link>https://federicoterzi.com/blog/fixing-the-expecting-trusted-certificate-error-with-sectigo-certificates</link>
+            <guid>https://federicoterzi.com/blog/fixing-the-expecting-trusted-certificate-error-with-sectigo-certificates</guid>
+            <pubDate>Sat, 20 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The other day, I finally received the code-signing certificate from Sectigo. In the confirmation email, they explained the steps to download the certificate, and after following them, I found myself with a user.crt file.]]></description>
+            <content:encoded><![CDATA[The other day, I finally received the code-signing certificate from Sectigo. In the confirmation email, they explained the steps to download the certificate, and after following them, I found myself with a user.crt file.]]></content:encoded>
         </item>
     </channel>
 </rss>
