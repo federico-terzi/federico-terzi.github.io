@@ -139,6 +139,14 @@
             "title": "Fixing “Error: SignerSign() failed.” during SignTool code-signing",
             "summary": "Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:",
             "date_modified": "2022-08-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/automatic-codesigning-on-windows-using-github-actions",
+            "content_html": "After our previous article on automatic code-signing for macOS applications, we are now going to cover the process for Windows binaries. The article is going to discuss all the necessary steps to get a Windows application code-signed, starting from the process to obtain a certificate, all the way down to automating the signing process in your CI pipelines.",
+            "url": "https://federicoterzi.com/blog/automatic-codesigning-on-windows-using-github-actions",
+            "title": "Automatic Code-signing on Windows using GitHub Actions",
+            "summary": "After our previous article on automatic code-signing for macOS applications, we are now going to cover the process for Windows binaries. The article is going to discuss all the necessary steps to get a Windows application code-signed, starting from the process to obtain a certificate, all the way down to automating the signing process in your CI pipelines.",
+            "date_modified": "2022-09-21T00:00:00.000Z"
         }
     ]
 }

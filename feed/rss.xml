@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Sun, 11 Sep 2022 15:19:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Sep 2022 19:27:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -146,6 +146,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Sat, 27 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:]]></description>
             <content:encoded><![CDATA[Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Automatic Code-signing on Windows using GitHub Actions]]></title>
+            <link>https://federicoterzi.com/blog/automatic-codesigning-on-windows-using-github-actions</link>
+            <guid>https://federicoterzi.com/blog/automatic-codesigning-on-windows-using-github-actions</guid>
+            <pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[After our previous article on automatic code-signing for macOS applications, we are now going to cover the process for Windows binaries. The article is going to discuss all the necessary steps to get a Windows application code-signed, starting from the process to obtain a certificate, all the way down to automating the signing process in your CI pipelines.]]></description>
+            <content:encoded><![CDATA[After our previous article on automatic code-signing for macOS applications, we are now going to cover the process for Windows binaries. The article is going to discuss all the necessary steps to get a Windows application code-signed, starting from the process to obtain a certificate, all the way down to automating the signing process in your CI pipelines.]]></content:encoded>
         </item>
     </channel>
 </rss>
