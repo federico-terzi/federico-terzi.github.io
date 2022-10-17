@@ -178,7 +178,7 @@ jobs:
 ### Notes
 
 - You will need to have `jq` and `curl` installed for the script to work
-- You will need to store a GitHub token (a personal access token could work as well) in a CircleCI environment variable to for the API request to work
+- You will need to store a GitHub token (a personal access token could work as well) in a CircleCI environment variable for the API request to work
 
 ## Conclusion
 
