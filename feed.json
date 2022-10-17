@@ -147,6 +147,14 @@
             "title": "Automatic Code-signing on Windows using GitHub Actions",
             "summary": "After our previous article on automatic code-signing for macOS applications, we are now going to cover the process for Windows binaries. The article is going to discuss all the necessary steps to get a Windows application code-signed, starting from the process to obtain a certificate, all the way down to automating the signing process in your CI pipelines.",
             "date_modified": "2022-09-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/solving-github-status-stuck-on-pending-with-circlecis-approvals",
+            "content_html": "At Anima, we are always looking for new ways to automate our workflows. One of these efforts involved creating a new CircleCI pipeline to automatically deploy some NPM packages, removing the need for tedious manual work. The plan was straightforward: once started, the pipeline would bump the version of our packages (using Lerna), build them and finally publish them on our NPM registry.",
+            "url": "https://federicoterzi.com/blog/solving-github-status-stuck-on-pending-with-circlecis-approvals",
+            "title": "Solving GitHub Status stuck on Pending with CircleCI’s Approvals",
+            "summary": "At Anima, we are always looking for new ways to automate our workflows. One of these efforts involved creating a new CircleCI pipeline to automatically deploy some NPM packages, removing the need for tedious manual work. The plan was straightforward: once started, the pipeline would bump the version of our packages (using Lerna), build them and finally publish them on our NPM registry.",
+            "date_modified": "2022-10-17T00:00:00.000Z"
         }
     ]
 }
