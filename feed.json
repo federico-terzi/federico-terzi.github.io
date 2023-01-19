@@ -155,6 +155,14 @@
             "title": "Solving GitHub Status stuck on Pending with CircleCI’s Approvals",
             "summary": "At Anima, we are always looking for new ways to automate our workflows. One of these efforts involved creating a new CircleCI pipeline to automatically deploy some NPM packages, removing the need for tedious manual work. The plan was straightforward: once started, the pipeline would bump the version of our packages (using Lerna), build them and finally publish them on our NPM registry.",
             "date_modified": "2022-10-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/good-software-architectures-are-mostly-about-boundaries",
+            "content_html": "As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.",
+            "url": "https://federicoterzi.com/blog/good-software-architectures-are-mostly-about-boundaries",
+            "title": "Good Software Architectures are mostly about Boundaries",
+            "summary": "As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.",
+            "date_modified": "2023-01-19T00:00:00.000Z"
         }
     ]
 }

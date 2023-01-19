@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Tue, 06 Dec 2022 10:42:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Jan 2023 21:30:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -162,6 +162,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[At Anima, we are always looking for new ways to automate our workflows. One of these efforts involved creating a new CircleCI pipeline to automatically deploy some NPM packages, removing the need for tedious manual work. The plan was straightforward: once started, the pipeline would bump the version of our packages (using Lerna), build them and finally publish them on our NPM registry.]]></description>
             <content:encoded><![CDATA[At Anima, we are always looking for new ways to automate our workflows. One of these efforts involved creating a new CircleCI pipeline to automatically deploy some NPM packages, removing the need for tedious manual work. The plan was straightforward: once started, the pipeline would bump the version of our packages (using Lerna), build them and finally publish them on our NPM registry.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Good Software Architectures are mostly about Boundaries]]></title>
+            <link>https://federicoterzi.com/blog/good-software-architectures-are-mostly-about-boundaries</link>
+            <guid>https://federicoterzi.com/blog/good-software-architectures-are-mostly-about-boundaries</guid>
+            <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.]]></description>
+            <content:encoded><![CDATA[As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.]]></content:encoded>
         </item>
     </channel>
 </rss>
