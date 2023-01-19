@@ -3,7 +3,7 @@
     <p>
       <span class="bold">Designed</span> and
       <span class="bold">coded</span> with<span class="red"> ♥</span> by me.
-      Copyright © Federico Terzi 2019-2022 - P.IVA 03864201201
+      Copyright © Federico Terzi 2019-2023 - P.IVA 03864201201
     </p>
   </div>
 </template>
