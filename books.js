@@ -144,4 +144,9 @@ export default [
     author: 'Luca Palmieri',
     link: 'https://www.zero2prod.com/',
   },
+  {
+    name: 'High Performance Browser Networking',
+    author: 'Ilya Grigorik',
+    link: 'https://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763',
+  },
 ]
