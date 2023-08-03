@@ -73,6 +73,7 @@ export default {
       { label: 'About', to: '/#about', useHtml: true },
       { label: 'Projects', to: '/projects', useHtml: false },
       { label: 'Blog', to: '/blog', useHtml: false },
+      { label: 'Talks', to: '/talks', useHtml: false },
       { label: 'Contact me', to: '/contact-me', useHtml: false },
     ],
     menuOpen: false,

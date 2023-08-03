@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <span class="date">{{ formatDate(date) }}</span>
+    <span class="date">{{ formatDate(new Date(date)) }}</span>
     <h3 class="title">{{ title }}</h3>
     <p class="snippet">
       {{ snippet }}

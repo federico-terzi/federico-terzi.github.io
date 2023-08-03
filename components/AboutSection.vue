@@ -20,7 +20,8 @@
       </p>
       <p>
         If you like technical topics, you might also enjoy my
-        <NuxtLink to="/blog" class="red">Blog</NuxtLink>
+        <NuxtLink to="/blog" class="red">Blog</NuxtLink>,
+        <NuxtLink to="/talks" class="red">Talks</NuxtLink>
         and
         <a
           href="https://www.youtube.com/c/FedericoTerzi"
