@@ -5,7 +5,8 @@ export function formatDate(date) {
     day: 'numeric',
   }
 
-  const formattedDate = date.toLocaleDateString('en-US', options)
+  const dateObject = typeof date === 'string' ? new Date(date) : date
+  const formattedDate = dateObject.toLocaleDateString('en-US', options)
   return addDaySuffix(formattedDate)
 }
 
