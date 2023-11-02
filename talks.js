@@ -29,5 +29,6 @@ export default [
     name: 'Figma to React with AI, are we there yet?',
     conference: 'React Brussels',
     location: 'Brussels, Belgium',
+    recording: "https://youtu.be/90LTLe1ZhMg?si=BDDBCpqlQaebeHQY&t=58",
   },
 ]
