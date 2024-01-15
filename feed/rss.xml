@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Sat, 04 Nov 2023 11:51:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jan 2024 15:00:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -170,6 +170,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.]]></description>
             <content:encoded><![CDATA[As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fixing the “network request failed” error with GitHub NPM packages]]></title>
+            <link>https://federicoterzi.com/blog/fixing-the-network-request-failed-error-with-github-npm-packages</link>
+            <guid>https://federicoterzi.com/blog/fixing-the-network-request-failed-error-with-github-npm-packages</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The other day, I encountered this error while running npm install on a private repository:]]></description>
+            <content:encoded><![CDATA[The other day, I encountered this error while running npm install on a private repository:]]></content:encoded>
         </item>
     </channel>
 </rss>

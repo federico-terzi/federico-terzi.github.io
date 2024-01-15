@@ -163,6 +163,14 @@
             "title": "Good Software Architectures are mostly about Boundaries",
             "summary": "As software engineers, we are always asked to design maintainable and extensible software architectures. While design patterns and best practices help, most of them are just facades to one larger and fundamental principle: designing good boundaries.",
             "date_modified": "2023-01-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/fixing-the-network-request-failed-error-with-github-npm-packages",
+            "content_html": "The other day, I encountered this error while running npm install on a private repository:",
+            "url": "https://federicoterzi.com/blog/fixing-the-network-request-failed-error-with-github-npm-packages",
+            "title": "Fixing the “network request failed” error with GitHub NPM packages",
+            "summary": "The other day, I encountered this error while running npm install on a private repository:",
+            "date_modified": "2024-01-15T00:00:00.000Z"
         }
     ]
 }
