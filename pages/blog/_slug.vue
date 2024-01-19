@@ -5,7 +5,7 @@
       <p class="post-details">
         {{ formatDate(article.date) }} - by {{ article.author }}
       </p>
-      <div class="post-content">
+      <div class="post-content" :class="{ 'adaptive-images': article.adaptive_images }">
         <nuxt-content :document="header" v-if="header" />
         <nuxt-content :document="article" />
       </div>

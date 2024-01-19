@@ -7,6 +7,7 @@ categories: distributed systems crdt set eventual convergence real time collabor
 social_title: "Understanding CRTDs"
 social_subtitle: "A Gentle Introduction (Chapter 1)"
 header: understanding-crdt
+adaptive_images: true
 ---
 In the past two months, I’ve been diving deeper into the realm of distributed systems. The catalyst that started my research was discovering the world of [local-first applications](https://localfirstweb.dev/), a class of software that allows users to access and modify their data locally, while seamlessly synchronizing across devices, even in the face of connection failures.
 
