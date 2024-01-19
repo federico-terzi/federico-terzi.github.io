@@ -6,6 +6,7 @@
         {{ formatDate(article.date) }} - by {{ article.author }}
       </p>
       <div class="post-content">
+        <nuxt-content :document="header" v-if="header" />
         <nuxt-content :document="article" />
       </div>
       <post-footer class="post-footer" />
@@ -25,7 +26,17 @@ export default {
       .limit(1)
       .fetch()
 
-    return { article: articles[0] }
+    const article = articles[0];
+    let header = null;
+    if (article.header) {
+      header = await $content('headers')
+        .where({ path: { $contains: article.header } })
+        .limit(1)
+        .fetch()
+      header = header[0];
+    }
+
+    return { article, header }
   },
   methods: {
     formatDate,
