@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1705665962",layout:"default",error:a,serverRendered:true,routePath:"\u002Fblog\u002Funderstanding-crtds-a-gentle-introduction-chapter-1",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"2d8bb35f"}}}}(null));

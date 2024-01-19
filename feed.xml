@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Fri, 19 Jan 2024 12:06:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 14:28:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -92,20 +92,20 @@ You may want to validate a string (such as checking whether an email field is va
             <content:encoded><![CDATA[Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Rust vs C++, which is better and why?]]></title>
-            <link>https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why</link>
-            <guid>https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why</guid>
-            <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.]]></description>
-            <content:encoded><![CDATA[This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[12 Rust Tips and Tricks you might not know yet]]></title>
             <link>https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet</link>
             <guid>https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet</guid>
             <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.]]></description>
             <content:encoded><![CDATA[Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Rust vs C++, which is better and why?]]></title>
+            <link>https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why</link>
+            <guid>https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why</guid>
+            <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.]]></description>
+            <content:encoded><![CDATA[This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Optimizing Lists in React - Solving Performance Problems and Anti-patterns]]></title>
@@ -180,7 +180,7 @@ You may want to validate a string (such as checking whether an email field is va
             <content:encoded><![CDATA[The other day, I encountered this error while running npm install on a private repository:]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Understanding CRTDs: A Gentle Introduction (Chapter 1)]]></title>
+            <title><![CDATA[Understanding CRDTs: A Gentle Introduction (Chapter 1)]]></title>
             <link>https://federicoterzi.com/blog/understanding-crtds-a-gentle-introduction-chapter-1</link>
             <guid>https://federicoterzi.com/blog/understanding-crtds-a-gentle-introduction-chapter-1</guid>
             <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
