@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Understanding CRTDs: A Gentle Introduction (Chapter 1)"
+title: "Understanding CRDTs: A Gentle Introduction (Chapter 1)"
 author: Federico Terzi
 date: 2024-01-19
 categories: distributed systems crdt set eventual convergence real time collaboration
-social_title: "Understanding CRTDs"
+social_title: "Understanding CRDTs"
 social_subtitle: "A Gentle Introduction (Chapter 1)"
 header: understanding-crdt
 adaptive_images: true
@@ -16,7 +16,7 @@ In the past two months, I’ve been diving deeper into the realm of distributed 
 From the lens of distributed system theory, local-first applications could be defined as multi-master, eventually-consistent, distributed databases. A replica of the database would run on every user’s device, allowing writes at all times and, when a connection with another replica is available, synchronize the changes. Moreover, depending on the specific algorithm chosen to implement this distributed database, we could relax many of the topology constraints of traditional systems: imagine a system that could seamlessly synchronize across user devices (eg. P2P), while also _optionally_ synchronizing with a central server.
 
 
-![An arbitrary network topology](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image0.png)
+![An arbitrary network topology](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image0.png)
 
 
 This architecture allows applications to offer a superb UX, allowing users to work even without an internet connection (eg. when flying on a plane or in the subway), without sacrificing the convenience of synchronization across devices, something that we take for granted nowadays. But if the UX is so much better for the end user, why do so many apps fail to implement such a model? For example, Notion, a very popular knowledge-base app, can’t work without an internet connection, leading to poor user experience in low-connectivity scenarios.
@@ -25,25 +25,25 @@ This architecture allows applications to offer a superb UX, allowing users to wo
 The answer is that implementing a robust multi-master replication is not trivial, and introduces several challenges. For example, what happens when two users write to the same entry concurrently?
 
 
-![Example of a concurrent write across different replicas.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image1.png)
+![Example of a concurrent write across different replicas.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image1.png)
 
 
 A traditional centralized database does not suffer from this problem, as all writes are handled by a single entity, which can decide with no ambiguity which update should take precedence.
 
 
-![The centralized database has the final say on what update has priority.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image2.png)
+![The centralized database has the final say on what update has priority.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image2.png)
 
 
 But in a multi-master architecture, all replicas typically have the same priority, so how do we decide which update “win”?
 
 
-![In a multi-master scenario, dealing with conflicts is not trivial.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image3.png)
+![In a multi-master scenario, dealing with conflicts is not trivial.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image3.png)
 
 
 A first approach could be to have the _last_ update take precedence, a concept known as _Last Write Wins_ (LWW): in this scenario, the last update being performed overwrites the previous one. So theoretically, we could just attach to each update a timestamp, and the update with the highest timestamp wins. Sounds easy, right?
 
 
-![Concurrent write in a multi-master scenario, with timestamps attached.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image4.png)
+![Concurrent write in a multi-master scenario, with timestamps attached.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image4.png)
 
 
 Well, we have a problem, in fact, a serious problem: in a distributed system, clocks are never perfectly in sync. They can drift forward, backward, and even be completely off. And while most operating systems [will try their best to keep clocks in sync](https://en.wikipedia.org/wiki/Network_Time_Protocol), it’s not something we should rely on to guarantee correctness or integrity. Would you trust a database that 99.99% of the time works perfectly, but silently corrupts the data if the clock goes off?
@@ -52,7 +52,7 @@ Well, we have a problem, in fact, a serious problem: in a distributed system, cl
 And it gets worse, because even if clocks are perfectly in sync, the LWW semantic isn’t always appropriate. Imagine the scenario of a distributed counter: what happens if two replicas increment the counter concurrently? If we adopt the LWW semantic, one of the two increments is going to be lost. 
 
 
-![We can’t represent a counter with an LWW semantic, as concurrent increments would be lost.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image5.png)
+![We can’t represent a counter with an LWW semantic, as concurrent increments would be lost.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image5.png)
 
 
 It turns out that different use cases and data structures require different approaches to deal with conflicts. As you can imagine, this could get complex pretty quickly. Luckily for us, distributed system theory comes to the rescue with the concept of CRDT.
@@ -103,7 +103,7 @@ As you can imagine, despite being formally definable as a CRDT, this data struct
 Our CRDT adventure will start with a simple, yet very useful data structure: the Set.
 
 
-![A generic Set data structure.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image6.png)
+![A generic Set data structure.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image6.png)
 
 
 ## First step: Add-only Set
@@ -163,13 +163,13 @@ Things start to get interesting when we introduce `CRDT` semantics, which we are
 Our `CRDTAddOnlySet` currently lacks one of the most important features of a CRDT: convergence. In particular, we want every replica of our data structure to eventually converge to the same value.
 
 
-![Replicas eventually converge to the same Set value.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image7.png)
+![Replicas eventually converge to the same Set value.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image7.png)
 
 
 At this point, we are not interested in the specific protocol used by different replicas to send each others’ changes. Let’s just assume that each replica will periodically send its `CRDTAddOnlySet` value to the other replicas.
 
 
-![Replicas sending to each other their entire values.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image8.png)
+![Replicas sending to each other their entire values.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image8.png)
 
 
 To handle the merging process, we’ll add a new method to our `CRDTSet` structure: `merge`. This method takes another `CRDTAddOnlySet` and merges all its elements with the current set:
@@ -263,7 +263,7 @@ console.log(replicaA.has('a')); // true!!! The 'a' came back!
 We have a problem: although replica A deleted element `a`, synchronizing with replica B causes the `a` element to come back!
 
 
-![After the second synchronization, the “a” element is undeleted from replica A, which is not the expected behavior.](/posts/2024-01-19-understanding-crtds-a-gentle-introduction-chapter-1/image9.png)
+![After the second synchronization, the “a” element is undeleted from replica A, which is not the expected behavior.](/posts/2024-01-19-understanding-CRDTs-a-gentle-introduction-chapter-1/image9.png)
 
 
 Our `remove` operation is quite flaky: depending on the synchronization sequence, elements can be randomly undeleted. How can we solve this problem?
