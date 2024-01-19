@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1705674734",layout:"default",error:a,serverRendered:true,routePath:"\u002Fblog\u002Fhow-to-force-github-pages-to-rebuild-jekyll-website",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"38a45eb8"}}}}(null));
