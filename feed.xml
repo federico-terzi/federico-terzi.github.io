@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Mon, 15 Jan 2024 15:00:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 12:06:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -178,6 +178,14 @@ You may want to validate a string (such as checking whether an email field is va
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[The other day, I encountered this error while running npm install on a private repository:]]></description>
             <content:encoded><![CDATA[The other day, I encountered this error while running npm install on a private repository:]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Understanding CRTDs: A Gentle Introduction (Chapter 1)]]></title>
+            <link>https://federicoterzi.com/blog/understanding-crtds-a-gentle-introduction-chapter-1</link>
+            <guid>https://federicoterzi.com/blog/understanding-crtds-a-gentle-introduction-chapter-1</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the past two months, I’ve been diving deeper into the realm of distributed systems. The catalyst that started my research was discovering the world of local-first applications, a class of software that allows users to access and modify their data locally, while seamlessly synchronizing across devices, even in the face of connection failures.]]></description>
+            <content:encoded><![CDATA[In the past two months, I’ve been diving deeper into the realm of distributed systems. The catalyst that started my research was discovering the world of local-first applications, a class of software that allows users to access and modify their data locally, while seamlessly synchronizing across devices, even in the face of connection failures.]]></content:encoded>
         </item>
     </channel>
 </rss>
