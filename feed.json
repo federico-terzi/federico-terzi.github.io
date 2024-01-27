@@ -53,20 +53,20 @@
             "date_modified": "2019-10-06T00:00:00.000Z"
         },
         {
-            "id": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
-            "content_html": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
-            "url": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
-            "title": "How to Promote Your Open Source Project",
-            "summary": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
-            "date_modified": "2020-02-07T00:00:00.000Z"
-        },
-        {
             "id": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
             "content_html": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
             "url": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
             "title": "Regex101 - The Ultimate Tool for Regular Expressions",
             "summary": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
             "date_modified": "2020-05-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
+            "content_html": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
+            "url": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
+            "title": "How to Promote Your Open Source Project",
+            "summary": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
+            "date_modified": "2020-02-07T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/understanding-strings-in-rust",

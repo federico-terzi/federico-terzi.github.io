@@ -4,7 +4,7 @@
         <title>Federico Terzi</title>
         <link>https://federicoterzi.com/blog</link>
         <description>A Software Engineering Journey</description>
-        <lastBuildDate>Sat, 27 Jan 2024 18:41:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jan 2024 18:41:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -56,16 +56,6 @@
             <content:encoded><![CDATA[Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust.]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[How to Promote Your Open Source Project]]></title>
-            <link>https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github</link>
-            <guid>https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github</guid>
-            <pubDate>Fri, 07 Feb 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
-Turns out that promotion, probably the least favourable thing for a programmer, is important as well.]]></description>
-            <content:encoded><![CDATA[As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
-Turns out that promotion, probably the least favourable thing for a programmer, is important as well.]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Regex101 - The Ultimate Tool for Regular Expressions]]></title>
             <link>https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions</link>
             <guid>https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions</guid>
@@ -74,6 +64,16 @@ Turns out that promotion, probably the least favourable thing for a programmer, 
 You may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.]]></description>
             <content:encoded><![CDATA[If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.
 You may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to Promote Your Open Source Project]]></title>
+            <link>https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github</link>
+            <guid>https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github</guid>
+            <pubDate>Fri, 07 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
+Turns out that promotion, probably the least favourable thing for a programmer, is important as well.]]></description>
+            <content:encoded><![CDATA[As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.
+Turns out that promotion, probably the least favourable thing for a programmer, is important as well.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Understanding Strings in Rust]]></title>
