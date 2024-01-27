@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1706380886",layout:"default",error:a,serverRendered:true,routePath:"\u002Fblog\u002Frust-vs-cpp-which-is-better-and-why",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"9326c8f9"}}}}(null));

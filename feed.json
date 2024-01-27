@@ -125,20 +125,20 @@
             "date_modified": "2022-08-15T00:00:00.000Z"
         },
         {
-            "id": "https://federicoterzi.com/blog/fixing-the-error-signersign-failed-during-signtool-codesigning",
-            "content_html": "Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:",
-            "url": "https://federicoterzi.com/blog/fixing-the-error-signersign-failed-during-signtool-codesigning",
-            "title": "Fixing “Error: SignerSign() failed.” during SignTool code-signing",
-            "summary": "Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:",
-            "date_modified": "2022-08-27T00:00:00.000Z"
-        },
-        {
             "id": "https://federicoterzi.com/blog/fixing-the-expecting-trusted-certificate-error-with-sectigo-certificates",
             "content_html": "The other day, I finally received the code-signing certificate from Sectigo. In the confirmation email, they explained the steps to download the certificate, and after following them, I found myself with a user.crt file.",
             "url": "https://federicoterzi.com/blog/fixing-the-expecting-trusted-certificate-error-with-sectigo-certificates",
             "title": "Fixing the “Expecting: TRUSTED CERTIFICATE” error with Sectigo certificates",
             "summary": "The other day, I finally received the code-signing certificate from Sectigo. In the confirmation email, they explained the steps to download the certificate, and after following them, I found myself with a user.crt file.",
             "date_modified": "2022-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/fixing-the-error-signersign-failed-during-signtool-codesigning",
+            "content_html": "Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:",
+            "url": "https://federicoterzi.com/blog/fixing-the-error-signersign-failed-during-signtool-codesigning",
+            "title": "Fixing “Error: SignerSign() failed.” during SignTool code-signing",
+            "summary": "Today I was working on the automatic code-signing CI for Espanso. As suggested by various articles, I went ahead and tried to sign the executable with this signtool command:",
+            "date_modified": "2022-08-27T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/automatic-codesigning-on-windows-using-github-actions",
@@ -179,6 +179,14 @@
             "title": "Understanding CRDTs: A Gentle Introduction (Chapter 1)",
             "summary": "In the past two months, I’ve been diving deeper into the realm of distributed systems. The catalyst that started my research was discovering the world of local-first applications, a class of software that allows users to access and modify their data locally, while seamlessly synchronizing across devices, even in the face of connection failures.",
             "date_modified": "2024-01-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/screencapturekit-failing-to-capture-the-entire-display",
+            "content_html": "I’ve just spend a good portion of this afternoon trying to understand why Apple’s ScreenCaptureKit did not behave as expected. My goal was simple: creating the simplest possible program to capture the entire display and analyse the generated buffers.",
+            "url": "https://federicoterzi.com/blog/screencapturekit-failing-to-capture-the-entire-display",
+            "title": "ScreenCaptureKit failing to capture the entire Display",
+            "summary": "I’ve just spend a good portion of this afternoon trying to understand why Apple’s ScreenCaptureKit did not behave as expected. My goal was simple: creating the simplest possible program to capture the entire display and analyse the generated buffers.",
+            "date_modified": "2024-01-27T00:00:00.000Z"
         }
     ]
 }
