@@ -366,7 +366,7 @@ Unfortunately, our current `CRDTSet` still has some problems:
 1. What happens if a replica adds an element after removing it? With the current implementation, once an element has been removed it won’t be restorable.
 2. Although we are _logically_ removing elements, the size of our data structure keeps increasing over time. If we perform many removals, that would bloat our memory consumption significantly.
 
-In the next chapter, we are going to answer these two questions and more, so stay tuned!
+In the [next chapter](/blog/understanding-crdts-improving-our-set-chapter-2), we are going to answer these two questions and more, so stay tuned!
 
 
 PS: All the code is available in this repository: [https://github.com/federico-terzi/crdt-experiments](https://github.com/federico-terzi/crdt-experiments)
