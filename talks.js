@@ -37,6 +37,6 @@ export default [
     name: 'Fearless Replication: Building a CRDT in JS',
     conference: 'Open Source Day',
     location: 'Florence, Italy',
-    recording: "https://www.youtube.com/live/8owI4xBEIl0?si=h8mUWybM5INCyCjH&t=23048",
+    recording: "https://www.youtube.com/live/8owI4xBEIl0?si=h8mUWybM5INCyCjH&t=23049",
   },
 ]
