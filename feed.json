@@ -61,20 +61,20 @@
             "date_modified": "2020-02-07T00:00:00.000Z"
         },
         {
-            "id": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
-            "content_html": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
-            "url": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
-            "title": "Regex101 - The Ultimate Tool for Regular Expressions",
-            "summary": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
-            "date_modified": "2020-05-29T00:00:00.000Z"
-        },
-        {
             "id": "https://federicoterzi.com/blog/understanding-strings-in-rust",
             "content_html": "When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.",
             "url": "https://federicoterzi.com/blog/understanding-strings-in-rust",
             "title": "Understanding Strings in Rust",
             "summary": "When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.",
             "date_modified": "2021-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
+            "content_html": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
+            "url": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
+            "title": "Regex101 - The Ultimate Tool for Regular Expressions",
+            "summary": "If you've been programming for a while, you will surely know how useful regular expressions can be when dealing with text.\nYou may want to validate a string (such as checking whether an email field is valid) or extract some information from formatted text. In both cases, building the right regex can take many attempts.",
+            "date_modified": "2020-05-29T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
@@ -85,20 +85,20 @@
             "date_modified": "2021-01-21T00:00:00.000Z"
         },
         {
-            "id": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
-            "content_html": "This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.",
-            "url": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
-            "title": "Rust vs C++, which is better and why?",
-            "summary": "This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.",
-            "date_modified": "2021-05-04T00:00:00.000Z"
-        },
-        {
             "id": "https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet",
             "content_html": "Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.",
             "url": "https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet",
             "title": "12 Rust Tips and Tricks you might not know yet",
             "summary": "Rust is a great programming language: reliable, fast, enjoyable, but also rather complex. Over the past two years, I’ve been using it both professionally and on side projects (such as Espanso) and, over that time, I stumbled upon many useful patterns and crates that I wish I knew when I first started learning it.",
             "date_modified": "2022-01-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
+            "content_html": "This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.",
+            "url": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
+            "title": "Rust vs C++, which is better and why?",
+            "summary": "This question comes up a lot lately, especially when considering if learning Rust is worth it or not, and so I thought it could be a wonderful opportunity to write a new article, discussing the differences between the two, as well as what they share in common.",
+            "date_modified": "2021-05-04T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/optimizing-list-in-react-solving-performance-problems-and-anti-patterns",
