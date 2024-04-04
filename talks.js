@@ -17,6 +17,7 @@ export default [
     name: 'Figma to React with AI, are we there yet?',
     conference: 'React Advanced London',
     location: 'Remote',
+    recording: "https://portal.gitnation.org/contents/figma-to-react-with-ai-are-we-there-yet"
   },
   {
     date: '2023-10-24',
