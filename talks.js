@@ -31,4 +31,11 @@ export default [
     location: 'Brussels, Belgium',
     recording: "https://youtu.be/90LTLe1ZhMg?si=BDDBCpqlQaebeHQY&t=58",
   },
+  {
+    date: '2024-03-08',
+    name: 'Fearless Replication: Building a CRDT in JS',
+    conference: 'Open Source Day',
+    location: 'Florence, Italy',
+    recording: "https://www.youtube.com/live/8owI4xBEIl0?si=h8mUWybM5INCyCjH&t=23048",
+  },
 ]
