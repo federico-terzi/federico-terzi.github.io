@@ -11,41 +11,26 @@
         I’m <span class="red">product-oriented</span>. Despite loving the
         technical side, I also deeply care about user experiences and design.
       </p>
-      <p>
-        I love creating <span class="blue">side-projects</span>, and some of
-        them are used by tens of thousands of daily active users.
-        <a href="https://espanso.org" target="_blank" class="red">Espanso</a> is
-        the most popular one, and you can find the others
-        <NuxtLink to="/projects" class="blue">here</NuxtLink>.
+      <p>I'm currently working on <a href="https://borumi.com" target="_blank" class="red">Borumi</a>, a video editor that allows
+        creators to produce content in a fraction of the time.
+        I'm also the creator of <a href="https://espanso.org" target="_blank" class="red">Espanso</a>, an open-source text expander used by thousands of people every day.
+        You can find the others <NuxtLink to="/projects" class="blue">here</NuxtLink>.
       </p>
       <p>
         If you like technical topics, you might also enjoy my
         <NuxtLink to="/blog" class="red">Blog</NuxtLink>,
         <NuxtLink to="/talks" class="red">Talks</NuxtLink>
         and
-        <a
-          href="https://www.youtube.com/c/FedericoTerzi"
-          target="_blank"
-          class="red"
-          >YouTube</a
-        >
+        <a href="https://www.youtube.com/c/FedericoTerzi" target="_blank" class="red">YouTube</a>
         channel.
       </p>
       <p>
         I really enjoy <span class="blue">books</span>. I’m currently reading
-        <a
-          :href="currentBook().link"
-          target="_blank"
-          class="blue no-underline"
-          >{{ currentBook().name }}</a
-        >, and I’ve previously read
+        <a :href="currentBook().link" target="_blank" class="blue no-underline">{{ currentBook().name }}</a>, and I’ve
+        previously read
 
-        <a
-          :href="previousBook().link"
-          target="_blank"
-          class="blue no-underline"
-          >{{ previousBook().name }}</a
-        >. You can also check out my
+        <a :href="previousBook().link" target="_blank" class="blue no-underline">{{ previousBook().name }}</a>. You can
+        also check out my
         <NuxtLink to="/books" class="red">book recommendations</NuxtLink>.
       </p>
       <p>
@@ -80,7 +65,7 @@ export default {
   line-height: 22px;
 }
 
-.content > p:first-child {
+.content>p:first-child {
   margin-top: 0;
 }
 
