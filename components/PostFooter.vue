@@ -19,6 +19,12 @@
         >
         channel.
       </p>
+      <p>
+        If you create videos, you might also like 
+        <a href="https://borumi.com/" class="red"
+          >Borumi</a
+        >, a video editor I built from scratch to create beautiful videos.
+      </p>
     </div>
   </div>
 </template>
