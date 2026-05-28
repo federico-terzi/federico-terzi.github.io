@@ -37,14 +37,6 @@
             "date_modified": "2019-08-27T00:00:00.000Z"
         },
         {
-            "id": "https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know",
-            "content_html": "Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:",
-            "url": "https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know",
-            "title": "3 Great Python Tricks You May Not Know",
-            "summary": "Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:",
-            "date_modified": "2019-09-03T00:00:00.000Z"
-        },
-        {
             "id": "https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew",
             "content_html": "Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust.",
             "url": "https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew",
@@ -53,12 +45,12 @@
             "date_modified": "2019-10-06T00:00:00.000Z"
         },
         {
-            "id": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
-            "content_html": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
-            "url": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
-            "title": "How to Promote Your Open Source Project",
-            "summary": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
-            "date_modified": "2020-02-07T00:00:00.000Z"
+            "id": "https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know",
+            "content_html": "Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:",
+            "url": "https://federicoterzi.com/blog/3-great-python-tricks-you-may-not-know",
+            "title": "3 Great Python Tricks You May Not Know",
+            "summary": "Python is a wonderful language. Other than being simple to learn and fast to write, it’s also very powerful thanks to its huge ecosystem. In fact, it has so many features that it’s easy to miss some good ones. In this article I’m going to show you 3 great Python tricks you may have missed:",
+            "date_modified": "2019-09-03T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/regex101-the-ultimate-tool-for-regular-expressions",
@@ -69,20 +61,20 @@
             "date_modified": "2020-05-29T00:00:00.000Z"
         },
         {
+            "id": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
+            "content_html": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
+            "url": "https://federicoterzi.com/blog/how-to-promote-open-source-project-on-github",
+            "title": "How to Promote Your Open Source Project",
+            "summary": "As a developer myself, I know how hard it can be to promote a project. You spent weeks, months, or even years, developing your idea, only to find out later that nobody is noticing it.\nTurns out that promotion, probably the least favourable thing for a programmer, is important as well.",
+            "date_modified": "2020-02-07T00:00:00.000Z"
+        },
+        {
             "id": "https://federicoterzi.com/blog/understanding-strings-in-rust",
             "content_html": "When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.",
             "url": "https://federicoterzi.com/blog/understanding-strings-in-rust",
             "title": "Understanding Strings in Rust",
             "summary": "When I started learning Rust a couple of years ago, the first thing that really got me thinking was strings. You see, in Rust, there are 2 string types: the String and the &str types.",
             "date_modified": "2021-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
-            "content_html": "Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).",
-            "url": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
-            "title": "Why Electron is a Necessary Evil",
-            "summary": "Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).",
-            "date_modified": "2021-01-21T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/rust-vs-cpp-which-is-better-and-why",
@@ -107,6 +99,14 @@
             "title": "Optimizing Lists in React - Solving Performance Problems and Anti-patterns",
             "summary": "React is the most popular front-end framework, and that’s for a reason. Besides being funded by one of the largest companies on the planet, it’s also built around a few key concepts (one-way data flow, immutable data, functional components, hooks) that make it easier than ever to create robust applications. That said, it’s not without pitfalls.",
             "date_modified": "2022-02-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
+            "content_html": "Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).",
+            "url": "https://federicoterzi.com/blog/why-electron-is-a-necessary-evil",
+            "title": "Why Electron is a Necessary Evil",
+            "summary": "Unless you’ve been living under a rock for the past 5 years, chances are you have used an Electron-based application at least once in your life. For those (probably few) who don’t know what Electron is, it’s a cross-platform desktop app framework built on top of Chromium and NodeJS (which in turn is based on Chrome’s V8 engine).",
+            "date_modified": "2021-01-21T00:00:00.000Z"
         },
         {
             "id": "https://federicoterzi.com/blog/building-robust-applications-by-making-invalid-states-unrepresentable",
@@ -195,6 +195,14 @@
             "title": "Understanding CRDTs: Improving our Set (Chapter 2)",
             "summary": "In the previous article, we implemented a basic Set with support for additions and removals, as well as basic CRDT semantics. Despite working in simple cases, we also highlighted two significant limitations:",
             "date_modified": "2024-02-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://federicoterzi.com/blog/free-tools-for-content-creators",
+            "content_html": "As part of my work on Borumi, I find myself working with videos every day. Recording screencasts, editing clips, publishing to YouTube. Along the way I kept running into the same problems: can I grab that frame for a thumbnail? What's the resolution of this video? And a handful more.",
+            "url": "https://federicoterzi.com/blog/free-tools-for-content-creators",
+            "title": "Free Tools for Content Creators",
+            "summary": "As part of my work on Borumi, I find myself working with videos every day. Recording screencasts, editing clips, publishing to YouTube. Along the way I kept running into the same problems: can I grab that frame for a thumbnail? What's the resolution of this video? And a handful more.",
+            "date_modified": "2026-05-28T00:00:00.000Z"
         }
     ]
 }
